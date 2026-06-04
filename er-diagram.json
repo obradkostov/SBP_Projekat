@@ -1,0 +1,2764 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "949ae518cf3be19e0e43d62e",
+      "type": "entity",
+      "x": 567.9999605874899,
+      "y": -247.74999932443384,
+      "w": 140,
+      "h": 60,
+      "label": "Parking Zone",
+      "attributes": [
+        {
+          "id": "e09a37393782119e0e447602",
+          "name": "ID",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "fca7d00b0d37e19e0e44dc92",
+          "name": "Naziv",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "90c4ab989bd2e19e0e450870",
+          "name": "Geografsko Podrucje",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "e28d4f56f7fba19e0e4528c3",
+          "name": "Tip zone",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "8c518ff62554f19e0e4546a0",
+          "name": "Osnovna tarifa",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "52a947fecaf1219e0e456743",
+          "name": "Max vr. zadrzavanja",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "a8a1574717d2d19e0e461925",
+          "name": "Pravila naplate",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:949ae518cf3be19e0e43d62e:e09a37393782119e0e447602",
+      "type": "key_attribute",
+      "x": 587.7407078010066,
+      "y": -354.96370046348824,
+      "r": 10,
+      "label": "ID",
+      "pinned": true
+    },
+    {
+      "id": "attr:949ae518cf3be19e0e43d62e:fca7d00b0d37e19e0e44dc92",
+      "type": "attribute",
+      "x": 706.9536650165908,
+      "y": -305.1870343597933,
+      "r": 10,
+      "label": "Naziv",
+      "pinned": true
+    },
+    {
+      "id": "attr:949ae518cf3be19e0e43d62e:90c4ab989bd2e19e0e450870",
+      "type": "attribute",
+      "x": 731.259219400351,
+      "y": -231.1048140141438,
+      "r": 10,
+      "label": "Geografsko Podrucje",
+      "pinned": true
+    },
+    {
+      "id": "attr:949ae518cf3be19e0e43d62e:e28d4f56f7fba19e0e4528c3",
+      "type": "attribute",
+      "x": 457.8055179844386,
+      "y": -155.74073887667862,
+      "r": 10,
+      "label": "Tip zone",
+      "pinned": true
+    },
+    {
+      "id": "attr:949ae518cf3be19e0e43d62e:8c518ff62554f19e0e4546a0",
+      "type": "attribute",
+      "x": 399.3240416365379,
+      "y": -246.0185117753673,
+      "r": 10,
+      "label": "Osnovna tarifa",
+      "pinned": true
+    },
+    {
+      "id": "attr:949ae518cf3be19e0e43d62e:52a947fecaf1219e0e456743",
+      "type": "attribute",
+      "x": 436.90737547206953,
+      "y": -342.08332139833095,
+      "r": 10,
+      "label": "Max vr. zadrzavanja",
+      "pinned": true
+    },
+    {
+      "id": "attr:949ae518cf3be19e0e43d62e:a8a1574717d2d19e0e461925",
+      "type": "attribute",
+      "x": 674.7221811357183,
+      "y": -147.63888746269362,
+      "r": 10,
+      "label": "Pravila naplate",
+      "pinned": true
+    },
+    {
+      "id": "2cbe8edf4ccc319e0e482df8",
+      "type": "isa",
+      "x": 567.9999605874899,
+      "y": -47.749999324433844,
+      "r": 14,
+      "label": "Generalizzazione",
+      "coverage": "total",
+      "disjoint": "disjoint",
+      "parentId": "949ae518cf3be19e0e43d62e",
+      "childIds": [
+        "ffc2b04d170419e0e4c2daa",
+        "27dad2881363419e0e4c0d4d",
+        "05f1d185ed45c19e0e4be7fd",
+        "a91256e214b0219e0e4d2f62",
+        "6299a66892d719e0e4d731f",
+        "330947f105a5419e0e4d9e2a",
+        "b787cfcc2e0d219e0e4dbd10"
+      ]
+    },
+    {
+      "id": "05f1d185ed45c19e0e4be7fd",
+      "type": "entity",
+      "x": 321.3795915005148,
+      "y": 76.8055599842671,
+      "w": 140,
+      "h": 60,
+      "label": "Crvena",
+      "attributes": []
+    },
+    {
+      "id": "27dad2881363419e0e4c0d4d",
+      "type": "entity",
+      "x": 143.0462561583889,
+      "y": 77.96296732912208,
+      "w": 140,
+      "h": 60,
+      "label": "Zuta",
+      "attributes": []
+    },
+    {
+      "id": "ffc2b04d170419e0e4c2daa",
+      "type": "entity",
+      "x": -30.657449777306525,
+      "y": 71.01852325999225,
+      "w": 140,
+      "h": 60,
+      "label": "Zelena",
+      "attributes": []
+    },
+    {
+      "id": "a91256e214b0219e0e4d2f62",
+      "type": "entity",
+      "x": 506.6573709522861,
+      "y": 71.01852325999214,
+      "w": 140,
+      "h": 60,
+      "label": "Komercijalna",
+      "attributes": []
+    },
+    {
+      "id": "6299a66892d719e0e4d731f",
+      "type": "entity",
+      "x": 911.5988669809179,
+      "y": 64.35872748313787,
+      "w": 140,
+      "h": 60,
+      "label": "Rezidencijalna",
+      "attributes": []
+    },
+    {
+      "id": "330947f105a5419e0e4d9e2a",
+      "type": "entity",
+      "x": 687.3723464156452,
+      "y": 67.63622714649311,
+      "w": 140,
+      "h": 60,
+      "label": "Garazna",
+      "attributes": []
+    },
+    {
+      "id": "b787cfcc2e0d219e0e4dbd10",
+      "type": "entity",
+      "x": 1138.3503619335534,
+      "y": 64.32109913163217,
+      "w": 140,
+      "h": 60,
+      "label": "Specijalna Zona",
+      "attributes": []
+    },
+    {
+      "id": "b7b3dd7b73cbd19e0e516124",
+      "type": "entity",
+      "x": 144.68730734223482,
+      "y": 409.84304002730875,
+      "w": 140,
+      "h": 60,
+      "label": "Fiksna Tarifa",
+      "attributes": [
+        {
+          "id": "5483c2bd7bd119e0e52bef4",
+          "name": "ID",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "e14d251f6d32c19e0e533b76",
+          "name": "Tip Dana",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "8d21bb9395c8519e0e53839d",
+          "name": "Naziv Intervala",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "8eb18a7569ab919e0e53d75c",
+          "name": "Vreme Od",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "64e01f632ba4c19e0e54126a",
+          "name": "Vreme Do",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "9311eb61e7ae219e0e544d53",
+          "name": "Iznos tarife",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:b7b3dd7b73cbd19e0e516124:5483c2bd7bd119e0e52bef4",
+      "type": "key_attribute",
+      "x": 296.3724926390196,
+      "y": 395.22192647665315,
+      "r": 10,
+      "label": "ID",
+      "pinned": true
+    },
+    {
+      "id": "attr:b7b3dd7b73cbd19e0e516124:e14d251f6d32c19e0e533b76",
+      "type": "attribute",
+      "x": 291.7428632325891,
+      "y": 473.93377620172265,
+      "r": 10,
+      "label": "Tip Dana",
+      "pinned": true
+    },
+    {
+      "id": "attr:b7b3dd7b73cbd19e0e516124:8d21bb9395c8519e0e53839d",
+      "type": "attribute",
+      "x": 199.15027510397988,
+      "y": 517.9234055811424,
+      "r": 10,
+      "label": "Naziv Intervala",
+      "pinned": true
+    },
+    {
+      "id": "attr:b7b3dd7b73cbd19e0e516124:8eb18a7569ab919e0e53d75c",
+      "type": "attribute",
+      "x": -16.738613115311495,
+      "y": 476.3893388882543,
+      "r": 10,
+      "label": "Vreme Od",
+      "pinned": true
+    },
+    {
+      "id": "attr:b7b3dd7b73cbd19e0e516124:64e01f632ba4c19e0e54126a",
+      "type": "attribute",
+      "x": 68.29842213613225,
+      "y": 512.2689665787589,
+      "r": 10,
+      "label": "Vreme Do",
+      "pinned": true
+    },
+    {
+      "id": "attr:b7b3dd7b73cbd19e0e516124:9311eb61e7ae219e0e544d53",
+      "type": "attribute",
+      "x": -19.118238001958773,
+      "y": 388.4263806792758,
+      "r": 10,
+      "label": "Iznos tarife",
+      "pinned": true
+    },
+    {
+      "id": "67c8e1baa2c7619e0e5652f6",
+      "type": "relation",
+      "x": 143.7123344714796,
+      "y": 262.6505382580662,
+      "w": 120,
+      "h": 70,
+      "label": "DEFINISE",
+      "attributes": []
+    },
+    {
+      "id": "864dc3adb9b1e19e0e5cc14b",
+      "type": "relation",
+      "x": 598.5979253190718,
+      "y": 230.3570361218722,
+      "w": 120,
+      "h": 70,
+      "label": "Koristi",
+      "attributes": []
+    },
+    {
+      "id": "5cd5f080326319e0e5d416d",
+      "type": "entity",
+      "x": 597.1399253893635,
+      "y": 392.42759423029565,
+      "w": 140,
+      "h": 60,
+      "label": "Dinamicka Tarifa",
+      "attributes": [
+        {
+          "id": "7682e4bba215519e0e60f5b6",
+          "name": "ID",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "65a03747cb6f219e0e611df2",
+          "name": "Pocetak Vazenja",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "1390c1770484719e0e618b84",
+          "name": "Kraj Vazenja",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "db977e0e965619e0e624ddc",
+          "name": "Razlog Promene",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "885bb795e497e19e0e62b478",
+          "name": "Inicijator Promene",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "58e88a5c879af19e0e633dc6",
+          "name": "Popunjenost Zone",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "fa4a5f01662e419e0e65106e",
+          "name": "Trajanje Parkinga",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:5cd5f080326319e0e5d416d:7682e4bba215519e0e60f5b6",
+      "type": "key_attribute",
+      "x": 718.893958870952,
+      "y": 303.4926723124235,
+      "r": 10,
+      "label": "ID",
+      "pinned": true
+    },
+    {
+      "id": "attr:5cd5f080326319e0e5d416d:65a03747cb6f219e0e611df2",
+      "type": "attribute",
+      "x": 751.1399253893635,
+      "y": 372.0275942302957,
+      "r": 10,
+      "label": "Pocetak Vazenja",
+      "pinned": true
+    },
+    {
+      "id": "attr:5cd5f080326319e0e5d416d:1390c1770484719e0e618b84",
+      "type": "attribute",
+      "x": 751.1399253893635,
+      "y": 437.4914717357602,
+      "r": 10,
+      "label": "Kraj Vazenja",
+      "pinned": true
+    },
+    {
+      "id": "attr:5cd5f080326319e0e5d416d:db977e0e965619e0e624ddc",
+      "type": "attribute",
+      "x": 474.4676922890027,
+      "y": 316.02284066102527,
+      "r": 10,
+      "label": "Razlog Promene",
+      "pinned": true
+    },
+    {
+      "id": "attr:5cd5f080326319e0e5d416d:885bb795e497e19e0e62b478",
+      "type": "attribute",
+      "x": 448.76262596120506,
+      "y": 397.4055175898263,
+      "r": 10,
+      "label": "Inicijator Promene",
+      "pinned": true
+    },
+    {
+      "id": "attr:5cd5f080326319e0e5d416d:58e88a5c879af19e0e633dc6",
+      "type": "attribute",
+      "x": 524.4020258341291,
+      "y": 480.3237167248312,
+      "r": 10,
+      "label": "Popunjenost Zone",
+      "pinned": true
+    },
+    {
+      "id": "attr:5cd5f080326319e0e5d416d:fa4a5f01662e419e0e65106e",
+      "type": "attribute",
+      "x": 647.6426143770893,
+      "y": 498.7499831992767,
+      "r": 10,
+      "label": "Trajanje Parkinga",
+      "pinned": true
+    },
+    {
+      "id": "893ae22390a7119e11c868e1",
+      "type": "relation",
+      "x": 1111.9165314837999,
+      "y": 240.7254981475469,
+      "w": 120,
+      "h": 70,
+      "label": "Koristi",
+      "attributes": []
+    },
+    {
+      "id": "9a7da9005545119e11c88efa",
+      "type": "entity",
+      "x": 1259.6237991276664,
+      "y": 403.2460364994139,
+      "w": 140,
+      "h": 60,
+      "label": "Pretplatna Karta",
+      "attributes": [
+        {
+          "id": "426b37b639cbc19e11c965a6",
+          "name": "ID",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "5bf86f03c067919e11cb28f8",
+          "name": "Tip Pretplate",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "48adadb36beff19e11ce7185",
+          "name": "Period Vazenja",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "7dc3c78fc993119e11d2fcb1",
+          "name": "Zone",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": true,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "f4b9427cb14d119e11d33407",
+          "name": "Maks br vozila",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "c87e73e8e1e9619e11d364f0",
+          "name": "Cena",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:9a7da9005545119e11c88efa:426b37b639cbc19e11c965a6",
+      "type": "key_attribute",
+      "x": 1394.544628048035,
+      "y": 327.58672735914877,
+      "r": 10,
+      "label": "ID",
+      "pinned": true
+    },
+    {
+      "id": "attr:9a7da9005545119e11c88efa:5bf86f03c067919e11cb28f8",
+      "type": "attribute",
+      "x": 1406.2041214855876,
+      "y": 427.36410209215643,
+      "r": 10,
+      "label": "Tip Pretplate",
+      "pinned": true
+    },
+    {
+      "id": "attr:9a7da9005545119e11c88efa:48adadb36beff19e11ce7185",
+      "type": "attribute",
+      "x": 1337.3071148091412,
+      "y": 498.5227203726867,
+      "r": 10,
+      "label": "Period Vazenja",
+      "pinned": true
+    },
+    {
+      "id": "attr:9a7da9005545119e11c88efa:7dc3c78fc993119e11d2fcb1",
+      "type": "attribute",
+      "x": 1287.752967049843,
+      "y": 271.6147465354612,
+      "r": 10,
+      "label": "Zone",
+      "pinned": true
+    },
+    {
+      "id": "attr:9a7da9005545119e11c88efa:f4b9427cb14d119e11d33407",
+      "type": "attribute",
+      "x": 1108.0503844394848,
+      "y": 419.7302737724544,
+      "r": 10,
+      "label": "Maks br vozila",
+      "pinned": true
+    },
+    {
+      "id": "attr:9a7da9005545119e11c88efa:c87e73e8e1e9619e11d364f0",
+      "type": "attribute",
+      "x": 1216.4677595249836,
+      "y": 487.5673261042523,
+      "r": 10,
+      "label": "Cena",
+      "pinned": true
+    },
+    {
+      "id": "22bac19d716ab19e11e3be0d",
+      "type": "entity",
+      "x": -464.78694453799835,
+      "y": -305.3355306120284,
+      "w": 140,
+      "h": 60,
+      "label": "Parking Mesto",
+      "attributes": [
+        {
+          "id": "83ba697a4c3b719e11e3f886",
+          "name": "ID",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "b2601b32c174d19e11e56e83",
+          "name": "Oznaka Mesta",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "77134224159919e11e5db25",
+          "name": "Geografska lokacija",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "f6c244790b22d19e11e68ffb",
+          "name": "Status",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "7d8625ae2f29419e11e69d17",
+          "name": "Tip Mesta",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "671129805f20819e121e8271",
+          "name": "Natkrivenost",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "cfa16c5de478b19e121f9c7f",
+          "name": "Kamera/Senzor",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "f2143e652cd5e19e121fe50f",
+          "name": "Doz duzina vozila",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:22bac19d716ab19e11e3be0d:83ba697a4c3b719e11e3f886",
+      "type": "key_attribute",
+      "x": -484.7215876818204,
+      "y": -408.21982204898035,
+      "r": 10,
+      "label": "ID",
+      "pinned": true
+    },
+    {
+      "id": "attr:22bac19d716ab19e11e3be0d:b2601b32c174d19e11e56e83",
+      "type": "attribute",
+      "x": -368.28600012273284,
+      "y": -399.0468260548467,
+      "r": 10,
+      "label": "Oznaka Mesta",
+      "pinned": true
+    },
+    {
+      "id": "attr:22bac19d716ab19e11e3be0d:77134224159919e11e5db25",
+      "type": "attribute",
+      "x": -289.2247986937228,
+      "y": -303.6252471868092,
+      "r": 10,
+      "label": "Geografska lokacija",
+      "pinned": true
+    },
+    {
+      "id": "attr:22bac19d716ab19e11e3be0d:f6c244790b22d19e11e68ffb",
+      "type": "attribute",
+      "x": -605.7858112396798,
+      "y": -258.89692052991984,
+      "r": 10,
+      "label": "Status",
+      "pinned": true
+    },
+    {
+      "id": "attr:22bac19d716ab19e11e3be0d:7d8625ae2f29419e11e69d17",
+      "type": "attribute",
+      "x": -539.0986181746412,
+      "y": -207.1477708055775,
+      "r": 10,
+      "label": "Tip Mesta",
+      "pinned": true
+    },
+    {
+      "id": "b7d1c028363f519e11e7be1c",
+      "type": "relation",
+      "x": 91.29114496645737,
+      "y": -476.48310259674736,
+      "w": 120,
+      "h": 70,
+      "label": "Pripada",
+      "attributes": []
+    },
+    {
+      "id": "attr:22bac19d716ab19e11e3be0d:671129805f20819e121e8271",
+      "type": "attribute",
+      "x": -394.7877000702106,
+      "y": -182.71067232463793,
+      "r": 10,
+      "label": "Natkrivenost",
+      "pinned": true
+    },
+    {
+      "id": "attr:22bac19d716ab19e11e3be0d:cfa16c5de478b19e121f9c7f",
+      "type": "attribute",
+      "x": -336.72536534288224,
+      "y": -233.02234566774865,
+      "r": 10,
+      "label": "Kamera/Senzor",
+      "pinned": true
+    },
+    {
+      "id": "attr:22bac19d716ab19e11e3be0d:f2143e652cd5e19e121fe50f",
+      "type": "attribute",
+      "x": -604.412180641815,
+      "y": -384.39673157977376,
+      "r": 10,
+      "label": "Doz duzina vozila",
+      "pinned": true
+    },
+    {
+      "id": "2c51e5c49c06419e122206d0",
+      "type": "entity",
+      "x": -1144.8646156686452,
+      "y": -409.5784851012746,
+      "w": 140,
+      "h": 60,
+      "label": "Senzor",
+      "attributes": [
+        {
+          "id": "100dd200af00c19e122230d3",
+          "name": "ID",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "6ffc1fe30453319e12225459",
+          "name": "Proizvodjac",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "c966d2e99b53119e122265d5",
+          "name": "Model",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "a0803f0c8fbea19e12227b17",
+          "name": "Serijski Broj",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "b86e1ace35719e1222a973",
+          "name": "Datum Instalacije",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "858809ebca86719e1222cb5a",
+          "name": "Status",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "77a88f31bea6619e1222e386",
+          "name": "Tip Senzora",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:2c51e5c49c06419e122206d0:100dd200af00c19e122230d3",
+      "type": "key_attribute",
+      "x": -1210.6114630397092,
+      "y": -529.4114353407815,
+      "r": 10,
+      "label": "ID",
+      "pinned": true
+    },
+    {
+      "id": "attr:2c51e5c49c06419e122206d0:6ffc1fe30453319e12225459",
+      "type": "attribute",
+      "x": -1081.4999853228098,
+      "y": -314.8409995146599,
+      "r": 10,
+      "label": "Proizvodjac",
+      "pinned": true
+    },
+    {
+      "id": "attr:2c51e5c49c06419e122206d0:c966d2e99b53119e122265d5",
+      "type": "attribute",
+      "x": -1290.601016183453,
+      "y": -496.37283470709804,
+      "r": 10,
+      "label": "Model",
+      "pinned": true
+    },
+    {
+      "id": "attr:2c51e5c49c06419e122206d0:a0803f0c8fbea19e12227b17",
+      "type": "attribute",
+      "x": -1308.546552601374,
+      "y": -364.3243229280009,
+      "r": 10,
+      "label": "Serijski Broj",
+      "pinned": true
+    },
+    {
+      "id": "attr:2c51e5c49c06419e122206d0:b86e1ace35719e1222a973",
+      "type": "attribute",
+      "x": -1321.1427428420227,
+      "y": -432.63024957189623,
+      "r": 10,
+      "label": "Datum Instalacije",
+      "pinned": true
+    },
+    {
+      "id": "attr:2c51e5c49c06419e122206d0:858809ebca86719e1222cb5a",
+      "type": "attribute",
+      "x": -989.410772637909,
+      "y": -439.6713321602759,
+      "r": 10,
+      "label": "Status",
+      "pinned": true
+    },
+    {
+      "id": "attr:2c51e5c49c06419e122206d0:77a88f31bea6619e1222e386",
+      "type": "attribute",
+      "x": -1107.6392570537641,
+      "y": -528.263978762698,
+      "r": 10,
+      "label": "Tip Senzora",
+      "pinned": true
+    },
+    {
+      "id": "2aad048f899619e1223631a",
+      "type": "relation",
+      "x": -826.8674613487804,
+      "y": -334.83556773277047,
+      "w": 120,
+      "h": 70,
+      "label": "INSTALIRAN NA",
+      "attributes": []
+    },
+    {
+      "id": "d4c799ff1e5719e122ab8b3",
+      "type": "isa",
+      "x": -1517.497193140899,
+      "y": -115.06112717792305,
+      "r": 14,
+      "label": "Generalizzazione",
+      "coverage": "partial",
+      "disjoint": "disjoint",
+      "parentId": null,
+      "childIds": []
+    },
+    {
+      "id": "69b740c1adb8419e122bfaf0",
+      "type": "entity",
+      "x": -1575.6768800294942,
+      "y": -190.59564989288322,
+      "w": 140,
+      "h": 60,
+      "label": "Magnetni",
+      "attributes": []
+    },
+    {
+      "id": "d6d8eaae10f4219e122c15fb",
+      "type": "entity",
+      "x": -1391.7079444129924,
+      "y": -190.15239372038636,
+      "w": 140,
+      "h": 60,
+      "label": "Ultrazvucni",
+      "attributes": []
+    },
+    {
+      "id": "447eb5f62280319e122c483c",
+      "type": "entity",
+      "x": -1971.146122663972,
+      "y": -195.01657717327424,
+      "w": 140,
+      "h": 60,
+      "label": "Opticki",
+      "attributes": []
+    },
+    {
+      "id": "83b07c222cd4719e122c720d",
+      "type": "entity",
+      "x": -1758.6118540248935,
+      "y": -198.66406347335942,
+      "w": 140,
+      "h": 60,
+      "label": "Video-senzori",
+      "attributes": [
+        {
+          "id": "90857c4cdaad719e1240b38f",
+          "name": "Rezolucija",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "090b59896989119e1240de09",
+          "name": "Ugao Pokrivanja",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "08d46f1a619cb19e12412172",
+          "name": "Prepoznavanje oznaka",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6b330b59fb42919e122ca5c0",
+      "type": "entity",
+      "x": -1186.6495260342494,
+      "y": -189.78257365769224,
+      "w": 140,
+      "h": 60,
+      "label": "Kombinovani",
+      "attributes": []
+    },
+    {
+      "id": "672a611f52c4719e122cd554",
+      "type": "isa",
+      "x": -1241.401190665007,
+      "y": -298.984633570282,
+      "r": 14,
+      "label": "Generalizzazione",
+      "coverage": "total",
+      "disjoint": "disjoint",
+      "parentId": "2c51e5c49c06419e122206d0",
+      "childIds": [
+        "6b330b59fb42919e122ca5c0",
+        "83b07c222cd4719e122c720d",
+        "447eb5f62280319e122c483c",
+        "69b740c1adb8419e122bfaf0",
+        "d6d8eaae10f4219e122c15fb"
+      ]
+    },
+    {
+      "id": "f46237f0f6b7419e122da7cd",
+      "type": "isa",
+      "x": -464.78694453799835,
+      "y": -105.33553061202838,
+      "r": 14,
+      "label": "Mesto",
+      "coverage": "total",
+      "disjoint": "disjoint",
+      "parentId": "22bac19d716ab19e11e3be0d",
+      "childIds": [
+        "0d0976a7b671c19e123b2f74",
+        "bbe1072588fba19e123b1515",
+        "3a3021b6532de19e123aadf3",
+        "c87d49655ceb19e123a9127",
+        "29648e9b7934c19e123a571a",
+        "12eb6e817247819e1238bab5",
+        "53b78f18eb0c419e123a2b9a"
+      ]
+    },
+    {
+      "id": "12eb6e817247819e1238bab5",
+      "type": "entity",
+      "x": -1297.5833684885065,
+      "y": -36.72253818787833,
+      "w": 140,
+      "h": 60,
+      "label": "Mesto Sa Punjacem Za EV",
+      "attributes": [
+        {
+          "id": "01781627c6cce19e12392413",
+          "name": "Broj Prikljucaka",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "5f3fbb567cf519e1239594f",
+          "name": "Tip Konektora",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "5f464e637c76e19e12397a78",
+          "name": "Rezimi Punjenja",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "e8adcf4c7ddd319e12398fa3",
+          "name": "Snaga Punjaca",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:12eb6e817247819e1238bab5:01781627c6cce19e12392413",
+      "type": "attribute",
+      "x": -1222.8525548087534,
+      "y": 62.157304102261584,
+      "r": 10,
+      "label": "Broj Prikljucaka",
+      "pinned": true
+    },
+    {
+      "id": "attr:12eb6e817247819e1238bab5:5f3fbb567cf519e1239594f",
+      "type": "attribute",
+      "x": -1337.5934963730658,
+      "y": 68.39620776147119,
+      "r": 10,
+      "label": "Tip Konektora",
+      "pinned": true
+    },
+    {
+      "id": "attr:12eb6e817247819e1238bab5:5f464e637c76e19e12397a78",
+      "type": "attribute",
+      "x": -1454.700230546951,
+      "y": 33.23374099469245,
+      "r": 10,
+      "label": "Rezimi Punjenja",
+      "pinned": true
+    },
+    {
+      "id": "attr:12eb6e817247819e1238bab5:e8adcf4c7ddd319e12398fa3",
+      "type": "attribute",
+      "x": -1502.239563116146,
+      "y": -33.783051815604374,
+      "r": 10,
+      "label": "Snaga Punjaca",
+      "pinned": true
+    },
+    {
+      "id": "53b78f18eb0c419e123a2b9a",
+      "type": "entity",
+      "x": -563.0234759062844,
+      "y": -39.08833078364917,
+      "w": 140,
+      "h": 60,
+      "label": "Mesto Za Stanare",
+      "attributes": []
+    },
+    {
+      "id": "29648e9b7934c19e123a571a",
+      "type": "entity",
+      "x": -195.1052997369563,
+      "y": -46.185708570961395,
+      "w": 140,
+      "h": 60,
+      "label": "Mesto Za Taxi Vozila",
+      "attributes": []
+    },
+    {
+      "id": "c87d49655ceb19e123a9127",
+      "type": "entity",
+      "x": -390.26447733643505,
+      "y": -42.637019677305275,
+      "w": 140,
+      "h": 60,
+      "label": "Mesto Za Dostavna Vozila",
+      "attributes": []
+    },
+    {
+      "id": "3a3021b6532de19e123aadf3",
+      "type": "entity",
+      "x": -739.2001745581874,
+      "y": -41.45412337941986,
+      "w": 140,
+      "h": 60,
+      "label": "Mesto Osobe Sa Invaliditetom",
+      "attributes": [
+        {
+          "id": "cc16087cb63319e123ab8ba",
+          "name": "Nivo Pristupacnosti",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:3a3021b6532de19e123aadf3:cc16087cb63319e123ab8ba",
+      "type": "attribute",
+      "x": -702.3069087320725,
+      "y": 52.88681751546173,
+      "r": 10,
+      "label": "Nivo Pristupacnosti",
+      "pinned": true
+    },
+    {
+      "id": "bbe1072588fba19e123b1515",
+      "type": "entity",
+      "x": -914.250114976292,
+      "y": -33.173849294222265,
+      "w": 140,
+      "h": 60,
+      "label": "Rezervisana",
+      "attributes": []
+    },
+    {
+      "id": "0d0976a7b671c19e123b2f74",
+      "type": "entity",
+      "x": -1102.3119147470509,
+      "y": -33.173849294222215,
+      "w": 140,
+      "h": 60,
+      "label": "Standardna",
+      "attributes": []
+    },
+    {
+      "id": "attr:83b07c222cd4719e122c720d:90857c4cdaad719e1240b38f",
+      "type": "attribute",
+      "x": -1906.1084641889327,
+      "y": -117.89598328457632,
+      "r": 10,
+      "label": "Rezolucija",
+      "pinned": true
+    },
+    {
+      "id": "attr:83b07c222cd4719e122c720d:090b59896989119e1240de09",
+      "type": "attribute",
+      "x": -1794.9635273911726,
+      "y": -109.19665532576555,
+      "r": 10,
+      "label": "Ugao Pokrivanja",
+      "pinned": true
+    },
+    {
+      "id": "attr:83b07c222cd4719e122c720d:08d46f1a619cb19e12412172",
+      "type": "attribute",
+      "x": -1679.9860065659034,
+      "y": -113.27260738411644,
+      "r": 10,
+      "label": "Prepoznavanje oznaka",
+      "pinned": true
+    },
+    {
+      "id": "b29f5c0c74db119e124330f3",
+      "type": "entity",
+      "x": -629.1321374942112,
+      "y": -645.1165541603606,
+      "w": 140,
+      "h": 60,
+      "label": "Dogadjaj",
+      "attributes": [
+        {
+          "id": "77c916f24e92819e1243a469",
+          "name": "Redni Broj",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "cd7a329076b5219e1243d74c",
+          "name": "Vreme Nastanka",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "6d143d897a1ec19e1243f5df",
+          "name": "Ocitana Vrednost",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "8c965cb58d36b19e12441bc5",
+          "name": "Nivo Pouzdanosti",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "04a37dbf2160819e12443e25",
+          "name": "Potvrda",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "f846209efdda619e12469b46",
+          "name": "Tip Dogadjaja",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:b29f5c0c74db119e124330f3:77c916f24e92819e1243a469",
+      "type": "key_attribute",
+      "x": -533.2463756201352,
+      "y": -734.6787273843962,
+      "r": 10,
+      "label": "Redni Broj",
+      "pinned": true
+    },
+    {
+      "id": "attr:b29f5c0c74db119e124330f3:cd7a329076b5219e1243d74c",
+      "type": "attribute",
+      "x": -656.9253952214609,
+      "y": -753.432965171266,
+      "r": 10,
+      "label": "Vreme Nastanka",
+      "pinned": true
+    },
+    {
+      "id": "attr:b29f5c0c74db119e124330f3:6d143d897a1ec19e1243f5df",
+      "type": "attribute",
+      "x": -787.5349978375162,
+      "y": -704.5320625403568,
+      "r": 10,
+      "label": "Ocitana Vrednost",
+      "pinned": true
+    },
+    {
+      "id": "attr:b29f5c0c74db119e124330f3:8c965cb58d36b19e12441bc5",
+      "type": "attribute",
+      "x": -451.0332176799681,
+      "y": -629.1636004678294,
+      "r": 10,
+      "label": "Nivo Pouzdanosti",
+      "pinned": true
+    },
+    {
+      "id": "attr:b29f5c0c74db119e124330f3:04a37dbf2160819e12443e25",
+      "type": "attribute",
+      "x": -715.5584403481495,
+      "y": -554.9582927395892,
+      "r": 10,
+      "label": "Potvrda",
+      "pinned": true
+    },
+    {
+      "id": "295f3c4720cc419e1244ce4c",
+      "type": "relation",
+      "x": -932.9552284710217,
+      "y": -589.2907108116004,
+      "w": 120,
+      "h": 70,
+      "label": "GENERISE",
+      "attributes": []
+    },
+    {
+      "id": "attr:b29f5c0c74db119e124330f3:f846209efdda619e12469b46",
+      "type": "attribute",
+      "x": -585.6024635038972,
+      "y": -544.5275321111767,
+      "r": 10,
+      "label": "Tip Dogadjaja",
+      "pinned": true
+    },
+    {
+      "id": "3bd801d5f934b19e1249d49d",
+      "type": "entity",
+      "x": 1432.208663725536,
+      "y": -374.9304715530185,
+      "w": 140,
+      "h": 60,
+      "label": "Korisnik",
+      "attributes": [
+        {
+          "id": "39b68c5618aeb19e1249f526",
+          "name": "ID",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "3e51108ae9bfb19e124a1cb0",
+          "name": "Email",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "0fe1b661e5ff319e124a444b",
+          "name": "Adresa",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "a29bb57da9ae19e124a69a2",
+          "name": "Status Naloga",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "5e450455a49b319e124a9ca9",
+          "name": "Telefon",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": true,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:3bd801d5f934b19e1249d49d:39b68c5618aeb19e1249f526",
+      "type": "key_attribute",
+      "x": 1512.2092795862345,
+      "y": -467.997365751987,
+      "r": 10,
+      "label": "ID",
+      "pinned": true
+    },
+    {
+      "id": "attr:3bd801d5f934b19e1249d49d:3e51108ae9bfb19e124a1cb0",
+      "type": "attribute",
+      "x": 1378.7619651077184,
+      "y": -480.26485018218756,
+      "r": 10,
+      "label": "Email",
+      "pinned": true
+    },
+    {
+      "id": "attr:3bd801d5f934b19e1249d49d:0fe1b661e5ff319e124a444b",
+      "type": "attribute",
+      "x": 1277.7455802968896,
+      "y": -401.0362922483458,
+      "r": 10,
+      "label": "Adresa",
+      "pinned": true
+    },
+    {
+      "id": "attr:3bd801d5f934b19e1249d49d:a29bb57da9ae19e124a69a2",
+      "type": "attribute",
+      "x": 1258.7650642748192,
+      "y": -329.7109656532157,
+      "r": 10,
+      "label": "Status Naloga",
+      "pinned": true
+    },
+    {
+      "id": "attr:3bd801d5f934b19e1249d49d:5e450455a49b319e124a9ca9",
+      "type": "attribute",
+      "x": 1578.0529518186472,
+      "y": -312.25382307173635,
+      "r": 10,
+      "label": "Telefon",
+      "pinned": true
+    },
+    {
+      "id": "68752fdc3d30519e124d4b1b",
+      "type": "isa",
+      "x": 1433.1592125528402,
+      "y": -227.21065674972172,
+      "r": 14,
+      "label": "Generalizzazione",
+      "coverage": "total",
+      "disjoint": "disjoint",
+      "parentId": "3bd801d5f934b19e1249d49d",
+      "childIds": [
+        "8ea0eef436ca119e124de378",
+        "9ccede592ab2219e124dc2b1"
+      ]
+    },
+    {
+      "id": "9ccede592ab2219e124dc2b1",
+      "type": "entity",
+      "x": 1673.6103701183013,
+      "y": -137.71517047210818,
+      "w": 140,
+      "h": 60,
+      "label": "Pravno Lice",
+      "attributes": [
+        {
+          "id": "47ec2e4c6147f19e124f1626",
+          "name": "Naziv",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "3692fa8368dee19e124fbae1",
+          "name": "Maticni Broj",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "ae35ee06acd4e19e124f8f8c",
+          "name": "PIB",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "ec37193fa4e2119e12506de4",
+          "name": "Kontakt Osoba",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "2482dc1ce57d619e12507f04",
+          "name": "Sediste",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "8ea0eef436ca119e124de378",
+      "type": "entity",
+      "x": 1285.887087999012,
+      "y": -148.18572621339285,
+      "w": 140,
+      "h": 60,
+      "label": "Fizicko Lice",
+      "attributes": [
+        {
+          "id": "1802b614d91f519e124e7a8c",
+          "name": "Ime",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "1230ab135325819e124e7ce1",
+          "name": "Prezime",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "c9eeb54dbcc819e124e7e89",
+          "name": "JMBG",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:8ea0eef436ca119e124de378:1802b614d91f519e124e7a8c",
+      "type": "attribute",
+      "x": 1204.5764498255048,
+      "y": -55.597172900157545,
+      "r": 10,
+      "label": "Ime",
+      "pinned": true
+    },
+    {
+      "id": "attr:8ea0eef436ca119e124de378:1230ab135325819e124e7ce1",
+      "type": "attribute",
+      "x": 1326.756973492518,
+      "y": -55.45561236693112,
+      "r": 10,
+      "label": "Prezime",
+      "pinned": true
+    },
+    {
+      "id": "attr:8ea0eef436ca119e124de378:c9eeb54dbcc819e124e7e89",
+      "type": "key_attribute",
+      "x": 1126.1395704343356,
+      "y": -151.85174898268514,
+      "r": 10,
+      "label": "JMBG",
+      "pinned": true
+    },
+    {
+      "id": "attr:9ccede592ab2219e124dc2b1:47ec2e4c6147f19e124f1626",
+      "type": "attribute",
+      "x": 1835.1523777520674,
+      "y": -176.3575492207686,
+      "r": 10,
+      "label": "Naziv",
+      "pinned": true
+    },
+    {
+      "id": "attr:9ccede592ab2219e124dc2b1:ae35ee06acd4e19e124f8f8c",
+      "type": "attribute",
+      "x": 1794.4255365297297,
+      "y": -40.318291538561226,
+      "r": 10,
+      "label": "PIB",
+      "pinned": true
+    },
+    {
+      "id": "attr:9ccede592ab2219e124dc2b1:3692fa8368dee19e124fbae1",
+      "type": "attribute",
+      "x": 1847.2195899660935,
+      "y": -103.81271582580646,
+      "r": 10,
+      "label": "Maticni Broj",
+      "pinned": true
+    },
+    {
+      "id": "attr:9ccede592ab2219e124dc2b1:ec37193fa4e2119e12506de4",
+      "type": "attribute",
+      "x": 1566.6482861468721,
+      "y": -35.78238261573084,
+      "r": 10,
+      "label": "Kontakt Osoba",
+      "pinned": true
+    },
+    {
+      "id": "attr:9ccede592ab2219e124dc2b1:2482dc1ce57d619e12507f04",
+      "type": "attribute",
+      "x": 1679.5095517972625,
+      "y": -35.7823826157307,
+      "r": 10,
+      "label": "Sediste",
+      "pinned": true
+    },
+    {
+      "id": "bb65be01ce5619e125252c3",
+      "type": "entity",
+      "x": 2196.697125654557,
+      "y": -459.49747397828577,
+      "w": 140,
+      "h": 60,
+      "label": "Vozilo",
+      "attributes": [
+        {
+          "id": "5600cae4cae419e12527728",
+          "name": "Registarska Oznaka",
+          "type": "int",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "3aa0079edfca519e1252b43a",
+          "name": "Drzava Registracije",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "0051bd52b658f19e1252c590",
+          "name": "Marka",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "6475258488a7119e1252d2f9",
+          "name": "Model",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "71235bacc62f719e1252e842",
+          "name": "Tip Vozila",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "fbabf9e58a0dd19e12530144",
+          "name": "Dimenzije",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "8798cd65db06d19e12531f90",
+          "name": "Pogon",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:bb65be01ce5619e125252c3:5600cae4cae419e12527728",
+      "type": "key_attribute",
+      "x": 2189.8568295240893,
+      "y": -575.794597540073,
+      "r": 10,
+      "label": "Registarska Oznaka",
+      "pinned": true
+    },
+    {
+      "id": "attr:bb65be01ce5619e125252c3:3aa0079edfca519e1252b43a",
+      "type": "attribute",
+      "x": 2284.327458477414,
+      "y": -562.8595574656911,
+      "r": 10,
+      "label": "Drzava Registracije",
+      "pinned": true
+    },
+    {
+      "id": "attr:bb65be01ce5619e125252c3:0051bd52b658f19e1252c590",
+      "type": "attribute",
+      "x": 2379.3567546628688,
+      "y": -496.3483301425403,
+      "r": 10,
+      "label": "Marka",
+      "pinned": true
+    },
+    {
+      "id": "attr:bb65be01ce5619e125252c3:6475258488a7119e1252d2f9",
+      "type": "attribute",
+      "x": 2065.129216898647,
+      "y": -590.6868893226567,
+      "r": 10,
+      "label": "Model",
+      "pinned": true
+    },
+    {
+      "id": "attr:bb65be01ce5619e125252c3:71235bacc62f719e1252e842",
+      "type": "attribute",
+      "x": 2104.8190569506605,
+      "y": -378.68230737324785,
+      "r": 10,
+      "label": "Tip Vozila",
+      "pinned": true
+    },
+    {
+      "id": "attr:bb65be01ce5619e125252c3:fbabf9e58a0dd19e12530144",
+      "type": "attribute",
+      "x": 2226.73073176157,
+      "y": -353.03948156804995,
+      "r": 10,
+      "label": "Dimenzije",
+      "pinned": true
+    },
+    {
+      "id": "attr:bb65be01ce5619e125252c3:8798cd65db06d19e12531f90",
+      "type": "attribute",
+      "x": 2332.0499897781933,
+      "y": -405.83353469639883,
+      "r": 10,
+      "label": "Pogon",
+      "pinned": true
+    },
+    {
+      "id": "a2c54855905b719e125348f6",
+      "type": "relation",
+      "x": 1717.0019479685905,
+      "y": -425.0818325184513,
+      "w": 120,
+      "h": 70,
+      "label": "POSEDUJE",
+      "attributes": []
+    },
+    {
+      "id": "327689dc24d3919e12552c64",
+      "type": "entity",
+      "x": 1541.3071698923661,
+      "y": -760.3665253391832,
+      "w": 140,
+      "h": 60,
+      "label": "Parkiranje",
+      "attributes": [
+        {
+          "id": "717238bca7419e125586a2",
+          "name": "ID",
+          "type": "string",
+          "key": true,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "d767d84becf0319e125650d7",
+          "name": "Datum,Vreme Pocetka",
+          "type": "string",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "dc8492173b5ef19e1256c5a5",
+          "name": "Obracunati Iznos",
+          "type": "int",
+          "key": false,
+          "nullable": false,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        },
+        {
+          "id": "56dddb435dba119e1257b19c",
+          "name": "Pretplatna Karta",
+          "type": "string",
+          "key": false,
+          "nullable": true,
+          "multivalued": false,
+          "composite": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "attr:327689dc24d3919e12552c64:717238bca7419e125586a2",
+      "type": "key_attribute",
+      "x": 1560.521213951667,
+      "y": -876.2299149172793,
+      "r": 10,
+      "label": "ID",
+      "pinned": true
+    },
+    {
+      "id": "attr:327689dc24d3919e12552c64:d767d84becf0319e125650d7",
+      "type": "attribute",
+      "x": 1667.264454226851,
+      "y": -845.9188487201982,
+      "r": 10,
+      "label": "Datum,Vreme Pocetka",
+      "pinned": true
+    },
+    {
+      "id": "attr:327689dc24d3919e12552c64:dc8492173b5ef19e1256c5a5",
+      "type": "attribute",
+      "x": 1704.3532072038226,
+      "y": -785.746300973485,
+      "r": 10,
+      "label": "Obracunati Iznos",
+      "pinned": true
+    },
+    {
+      "id": "attr:327689dc24d3919e12552c64:56dddb435dba119e1257b19c",
+      "type": "attribute",
+      "x": 1456.4334690991113,
+      "y": -851.8340439563917,
+      "r": 10,
+      "label": "Pretplatna Karta",
+      "pinned": true
+    },
+    {
+      "id": "476710f248dd419e1258bbf7",
+      "type": "relation",
+      "x": 1834.9141147137555,
+      "y": -655.2621972847323,
+      "w": 120,
+      "h": 70,
+      "label": "PARKIRA SE ",
+      "attributes": []
+    },
+    {
+      "id": "45282bde48ef619e12594ecd",
+      "type": "relation",
+      "x": 626.516841840878,
+      "y": -824.9108348623533,
+      "w": 120,
+      "h": 70,
+      "label": "KORISTI",
+      "attributes": []
+    },
+    {
+      "id": "7756619a8dc8519e125a60f5",
+      "type": "relation",
+      "x": 883.5037977096946,
+      "y": -534.4038764530833,
+      "w": 120,
+      "h": 70,
+      "label": "NALAZI SE U",
+      "attributes": []
+    },
+    {
+      "id": "9b04d6f8aff3f19e125d107f",
+      "type": "relation",
+      "x": 2105.126316917738,
+      "y": -177.74338592874113,
+      "w": 120,
+      "h": 70,
+      "label": "REGULISANO",
+      "attributes": []
+    },
+    {
+      "id": "fe65d7b4bc8bd19e125f5d2b",
+      "type": "relation",
+      "x": 1488.4115503587864,
+      "y": 40.94946026838279,
+      "w": 120,
+      "h": 70,
+      "label": "IMA",
+      "attributes": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "19bb00547a88219e0e447602",
+      "from": "949ae518cf3be19e0e43d62e",
+      "to": "attr:949ae518cf3be19e0e43d62e:e09a37393782119e0e447602",
+      "label": ""
+    },
+    {
+      "id": "a02ebc8a643cc19e0e44dc92",
+      "from": "949ae518cf3be19e0e43d62e",
+      "to": "attr:949ae518cf3be19e0e43d62e:fca7d00b0d37e19e0e44dc92",
+      "label": ""
+    },
+    {
+      "id": "d9323dd3b065219e0e450870",
+      "from": "949ae518cf3be19e0e43d62e",
+      "to": "attr:949ae518cf3be19e0e43d62e:90c4ab989bd2e19e0e450870",
+      "label": ""
+    },
+    {
+      "id": "95ce515ce27c719e0e4528c3",
+      "from": "949ae518cf3be19e0e43d62e",
+      "to": "attr:949ae518cf3be19e0e43d62e:e28d4f56f7fba19e0e4528c3",
+      "label": ""
+    },
+    {
+      "id": "219de6700468619e0e4546a0",
+      "from": "949ae518cf3be19e0e43d62e",
+      "to": "attr:949ae518cf3be19e0e43d62e:8c518ff62554f19e0e4546a0",
+      "label": ""
+    },
+    {
+      "id": "5983fc556ec8a19e0e456743",
+      "from": "949ae518cf3be19e0e43d62e",
+      "to": "attr:949ae518cf3be19e0e43d62e:52a947fecaf1219e0e456743",
+      "label": ""
+    },
+    {
+      "id": "ebb99e35369b319e0e461925",
+      "from": "949ae518cf3be19e0e43d62e",
+      "to": "attr:949ae518cf3be19e0e43d62e:a8a1574717d2d19e0e461925",
+      "label": ""
+    },
+    {
+      "id": "3a7849b2904ff19e0e52bef4",
+      "from": "b7b3dd7b73cbd19e0e516124",
+      "to": "attr:b7b3dd7b73cbd19e0e516124:5483c2bd7bd119e0e52bef4",
+      "label": ""
+    },
+    {
+      "id": "a5a658fd26b3e19e0e533b76",
+      "from": "b7b3dd7b73cbd19e0e516124",
+      "to": "attr:b7b3dd7b73cbd19e0e516124:e14d251f6d32c19e0e533b76",
+      "label": ""
+    },
+    {
+      "id": "3924be234692519e0e53839e",
+      "from": "b7b3dd7b73cbd19e0e516124",
+      "to": "attr:b7b3dd7b73cbd19e0e516124:8d21bb9395c8519e0e53839d",
+      "label": ""
+    },
+    {
+      "id": "5bc42dd8a284c19e0e53d75c",
+      "from": "b7b3dd7b73cbd19e0e516124",
+      "to": "attr:b7b3dd7b73cbd19e0e516124:8eb18a7569ab919e0e53d75c",
+      "label": ""
+    },
+    {
+      "id": "470232f04c3f819e0e54126a",
+      "from": "b7b3dd7b73cbd19e0e516124",
+      "to": "attr:b7b3dd7b73cbd19e0e516124:64e01f632ba4c19e0e54126a",
+      "label": ""
+    },
+    {
+      "id": "43cae92fb2b5219e0e544d53",
+      "from": "b7b3dd7b73cbd19e0e516124",
+      "to": "attr:b7b3dd7b73cbd19e0e516124:9311eb61e7ae219e0e544d53",
+      "label": ""
+    },
+    {
+      "id": "803f143d491919e0e5820ce",
+      "from": "ffc2b04d170419e0e4c2daa",
+      "to": "67c8e1baa2c7619e0e5652f6",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "54367081eee4319e0e58a6d2",
+      "from": "05f1d185ed45c19e0e4be7fd",
+      "to": "67c8e1baa2c7619e0e5652f6",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "4ffa2f1e6446119e0e58b8e2",
+      "from": "27dad2881363419e0e4c0d4d",
+      "to": "67c8e1baa2c7619e0e5652f6",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "1f6b1c094e9cc19e0e58d423",
+      "from": "67c8e1baa2c7619e0e5652f6",
+      "to": "b7b3dd7b73cbd19e0e516124",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "a63af87e38d6d19e0e5cf8f9",
+      "from": "a91256e214b0219e0e4d2f62",
+      "to": "864dc3adb9b1e19e0e5cc14b",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "baf637350239e19e0e5d1056",
+      "from": "864dc3adb9b1e19e0e5cc14b",
+      "to": "330947f105a5419e0e4d9e2a",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "77860b234b7f219e0e5d6c11",
+      "from": "864dc3adb9b1e19e0e5cc14b",
+      "to": "5cd5f080326319e0e5d416d",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "b0c7076387d0c19e0e60f5b6",
+      "from": "5cd5f080326319e0e5d416d",
+      "to": "attr:5cd5f080326319e0e5d416d:7682e4bba215519e0e60f5b6",
+      "label": ""
+    },
+    {
+      "id": "cdb2e031ab75719e0e611df2",
+      "from": "5cd5f080326319e0e5d416d",
+      "to": "attr:5cd5f080326319e0e5d416d:65a03747cb6f219e0e611df2",
+      "label": ""
+    },
+    {
+      "id": "cf4cfa22dd68e19e0e618b84",
+      "from": "5cd5f080326319e0e5d416d",
+      "to": "attr:5cd5f080326319e0e5d416d:1390c1770484719e0e618b84",
+      "label": ""
+    },
+    {
+      "id": "993ea31bca5ad19e0e624ddc",
+      "from": "5cd5f080326319e0e5d416d",
+      "to": "attr:5cd5f080326319e0e5d416d:db977e0e965619e0e624ddc",
+      "label": ""
+    },
+    {
+      "id": "fef0cbdf2baf819e0e62b478",
+      "from": "5cd5f080326319e0e5d416d",
+      "to": "attr:5cd5f080326319e0e5d416d:885bb795e497e19e0e62b478",
+      "label": ""
+    },
+    {
+      "id": "2211ff0813db219e0e633dc6",
+      "from": "5cd5f080326319e0e5d416d",
+      "to": "attr:5cd5f080326319e0e5d416d:58e88a5c879af19e0e633dc6",
+      "label": ""
+    },
+    {
+      "id": "3d4fbbca28efa19e0e65106e",
+      "from": "5cd5f080326319e0e5d416d",
+      "to": "attr:5cd5f080326319e0e5d416d:fa4a5f01662e419e0e65106e",
+      "label": ""
+    },
+    {
+      "id": "8cef2f3f50db319e11c8c131",
+      "from": "6299a66892d719e0e4d731f",
+      "to": "893ae22390a7119e11c868e1",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "6a21f2f966ff519e11c8d2c3",
+      "from": "b787cfcc2e0d219e0e4dbd10",
+      "to": "893ae22390a7119e11c868e1",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "f3566c2b3185219e11c90865",
+      "from": "893ae22390a7119e11c868e1",
+      "to": "9a7da9005545119e11c88efa",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "987306529c0a819e11c965a6",
+      "from": "9a7da9005545119e11c88efa",
+      "to": "attr:9a7da9005545119e11c88efa:426b37b639cbc19e11c965a6",
+      "label": ""
+    },
+    {
+      "id": "71c20509c303e19e11cb28f8",
+      "from": "9a7da9005545119e11c88efa",
+      "to": "attr:9a7da9005545119e11c88efa:5bf86f03c067919e11cb28f8",
+      "label": ""
+    },
+    {
+      "id": "1679096ed8d719e11ce7185",
+      "from": "9a7da9005545119e11c88efa",
+      "to": "attr:9a7da9005545119e11c88efa:48adadb36beff19e11ce7185",
+      "label": ""
+    },
+    {
+      "id": "b7224621d436119e11d2fcb1",
+      "from": "9a7da9005545119e11c88efa",
+      "to": "attr:9a7da9005545119e11c88efa:7dc3c78fc993119e11d2fcb1",
+      "label": ""
+    },
+    {
+      "id": "c8b7db1659fd719e11d33407",
+      "from": "9a7da9005545119e11c88efa",
+      "to": "attr:9a7da9005545119e11c88efa:f4b9427cb14d119e11d33407",
+      "label": ""
+    },
+    {
+      "id": "627646c57fdcd19e11d364f0",
+      "from": "9a7da9005545119e11c88efa",
+      "to": "attr:9a7da9005545119e11c88efa:c87e73e8e1e9619e11d364f0",
+      "label": ""
+    },
+    {
+      "id": "9039cc627268419e11e3f887",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "attr:22bac19d716ab19e11e3be0d:83ba697a4c3b719e11e3f886",
+      "label": ""
+    },
+    {
+      "id": "d779a72bb6d4219e11e56e83",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "attr:22bac19d716ab19e11e3be0d:b2601b32c174d19e11e56e83",
+      "label": ""
+    },
+    {
+      "id": "bd54f23a7c8e319e11e5db25",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "attr:22bac19d716ab19e11e3be0d:77134224159919e11e5db25",
+      "label": ""
+    },
+    {
+      "id": "5c53a02f8a67319e11e68ffb",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "attr:22bac19d716ab19e11e3be0d:f6c244790b22d19e11e68ffb",
+      "label": ""
+    },
+    {
+      "id": "de4cabff327d119e11e69d18",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "attr:22bac19d716ab19e11e3be0d:7d8625ae2f29419e11e69d17",
+      "label": ""
+    },
+    {
+      "id": "5a06ca8ee192419e11e80e9d",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "b7d1c028363f519e11e7be1c",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "72b43c86216c519e11e817d7",
+      "from": "b7d1c028363f519e11e7be1c",
+      "to": "949ae518cf3be19e0e43d62e",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "8642090d8c58819e121e8272",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "attr:22bac19d716ab19e11e3be0d:671129805f20819e121e8271",
+      "label": ""
+    },
+    {
+      "id": "0f23588d8032319e121f9c7f",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "attr:22bac19d716ab19e11e3be0d:cfa16c5de478b19e121f9c7f",
+      "label": ""
+    },
+    {
+      "id": "3c0bbf82794f919e121fe510",
+      "from": "22bac19d716ab19e11e3be0d",
+      "to": "attr:22bac19d716ab19e11e3be0d:f2143e652cd5e19e121fe50f",
+      "label": ""
+    },
+    {
+      "id": "8e73ab645f05119e122230d3",
+      "from": "2c51e5c49c06419e122206d0",
+      "to": "attr:2c51e5c49c06419e122206d0:100dd200af00c19e122230d3",
+      "label": ""
+    },
+    {
+      "id": "d2573a67b1fc719e1222545a",
+      "from": "2c51e5c49c06419e122206d0",
+      "to": "attr:2c51e5c49c06419e122206d0:6ffc1fe30453319e12225459",
+      "label": ""
+    },
+    {
+      "id": "efa121e92189919e122265d5",
+      "from": "2c51e5c49c06419e122206d0",
+      "to": "attr:2c51e5c49c06419e122206d0:c966d2e99b53119e122265d5",
+      "label": ""
+    },
+    {
+      "id": "7ff4f261ab96719e12227b17",
+      "from": "2c51e5c49c06419e122206d0",
+      "to": "attr:2c51e5c49c06419e122206d0:a0803f0c8fbea19e12227b17",
+      "label": ""
+    },
+    {
+      "id": "c803681f33c6a19e1222a973",
+      "from": "2c51e5c49c06419e122206d0",
+      "to": "attr:2c51e5c49c06419e122206d0:b86e1ace35719e1222a973",
+      "label": ""
+    },
+    {
+      "id": "6affa24ee9cab19e1222cb5a",
+      "from": "2c51e5c49c06419e122206d0",
+      "to": "attr:2c51e5c49c06419e122206d0:858809ebca86719e1222cb5a",
+      "label": ""
+    },
+    {
+      "id": "1ac1760f2cab819e1222e387",
+      "from": "2c51e5c49c06419e122206d0",
+      "to": "attr:2c51e5c49c06419e122206d0:77a88f31bea6619e1222e386",
+      "label": ""
+    },
+    {
+      "id": "c34b3be64ea2b19e12238e3c",
+      "from": "2c51e5c49c06419e122206d0",
+      "to": "2aad048f899619e1223631a",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "e8039c03cbaf519e12239b5b",
+      "from": "2aad048f899619e1223631a",
+      "to": "22bac19d716ab19e11e3be0d",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "f579adcdd5b9419e12392413",
+      "from": "12eb6e817247819e1238bab5",
+      "to": "attr:12eb6e817247819e1238bab5:01781627c6cce19e12392413",
+      "label": ""
+    },
+    {
+      "id": "31c7f9370375319e1239594f",
+      "from": "12eb6e817247819e1238bab5",
+      "to": "attr:12eb6e817247819e1238bab5:5f3fbb567cf519e1239594f",
+      "label": ""
+    },
+    {
+      "id": "11d548fea991f19e12397a79",
+      "from": "12eb6e817247819e1238bab5",
+      "to": "attr:12eb6e817247819e1238bab5:5f464e637c76e19e12397a78",
+      "label": ""
+    },
+    {
+      "id": "376fa99c2ea5519e12398fa3",
+      "from": "12eb6e817247819e1238bab5",
+      "to": "attr:12eb6e817247819e1238bab5:e8adcf4c7ddd319e12398fa3",
+      "label": ""
+    },
+    {
+      "id": "e53366262a69919e123ab8ba",
+      "from": "3a3021b6532de19e123aadf3",
+      "to": "attr:3a3021b6532de19e123aadf3:cc16087cb63319e123ab8ba",
+      "label": ""
+    },
+    {
+      "id": "5d3a87816d87119e1240b390",
+      "from": "83b07c222cd4719e122c720d",
+      "to": "attr:83b07c222cd4719e122c720d:90857c4cdaad719e1240b38f",
+      "label": ""
+    },
+    {
+      "id": "c7686f77d41919e1240de09",
+      "from": "83b07c222cd4719e122c720d",
+      "to": "attr:83b07c222cd4719e122c720d:090b59896989119e1240de09",
+      "label": ""
+    },
+    {
+      "id": "bc7104e79ac6a19e12412173",
+      "from": "83b07c222cd4719e122c720d",
+      "to": "attr:83b07c222cd4719e122c720d:08d46f1a619cb19e12412172",
+      "label": ""
+    },
+    {
+      "id": "f2883c6fbc28419e1243a46a",
+      "from": "b29f5c0c74db119e124330f3",
+      "to": "attr:b29f5c0c74db119e124330f3:77c916f24e92819e1243a469",
+      "label": ""
+    },
+    {
+      "id": "64d354b6428b19e1243d74d",
+      "from": "b29f5c0c74db119e124330f3",
+      "to": "attr:b29f5c0c74db119e124330f3:cd7a329076b5219e1243d74c",
+      "label": ""
+    },
+    {
+      "id": "bb44916507f9419e1243f5e0",
+      "from": "b29f5c0c74db119e124330f3",
+      "to": "attr:b29f5c0c74db119e124330f3:6d143d897a1ec19e1243f5df",
+      "label": ""
+    },
+    {
+      "id": "57a5fcc0ee55b19e12441bc5",
+      "from": "b29f5c0c74db119e124330f3",
+      "to": "attr:b29f5c0c74db119e124330f3:8c965cb58d36b19e12441bc5",
+      "label": ""
+    },
+    {
+      "id": "0e6c22bad514819e12443e26",
+      "from": "b29f5c0c74db119e124330f3",
+      "to": "attr:b29f5c0c74db119e124330f3:04a37dbf2160819e12443e25",
+      "label": ""
+    },
+    {
+      "id": "a0055d0e6ca0c19e12450031",
+      "from": "b29f5c0c74db119e124330f3",
+      "to": "295f3c4720cc419e1244ce4c",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "173dcb3ccfdde19e12450f2d",
+      "from": "295f3c4720cc419e1244ce4c",
+      "to": "2c51e5c49c06419e122206d0",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "2962d38c329f519e12469b46",
+      "from": "b29f5c0c74db119e124330f3",
+      "to": "attr:b29f5c0c74db119e124330f3:f846209efdda619e12469b46",
+      "label": ""
+    },
+    {
+      "id": "42937e81fbe4719e1249f527",
+      "from": "3bd801d5f934b19e1249d49d",
+      "to": "attr:3bd801d5f934b19e1249d49d:39b68c5618aeb19e1249f526",
+      "label": ""
+    },
+    {
+      "id": "014246fb002d319e124a1cb0",
+      "from": "3bd801d5f934b19e1249d49d",
+      "to": "attr:3bd801d5f934b19e1249d49d:3e51108ae9bfb19e124a1cb0",
+      "label": ""
+    },
+    {
+      "id": "13aeda3a1a5be19e124a444c",
+      "from": "3bd801d5f934b19e1249d49d",
+      "to": "attr:3bd801d5f934b19e1249d49d:0fe1b661e5ff319e124a444b",
+      "label": ""
+    },
+    {
+      "id": "d60cc6ce73e2719e124a69a3",
+      "from": "3bd801d5f934b19e1249d49d",
+      "to": "attr:3bd801d5f934b19e1249d49d:a29bb57da9ae19e124a69a2",
+      "label": ""
+    },
+    {
+      "id": "d82ef0a0ceec119e124a9caa",
+      "from": "3bd801d5f934b19e1249d49d",
+      "to": "attr:3bd801d5f934b19e1249d49d:5e450455a49b319e124a9ca9",
+      "label": ""
+    },
+    {
+      "id": "839bc22a73a3319e124e7a8c",
+      "from": "8ea0eef436ca119e124de378",
+      "to": "attr:8ea0eef436ca119e124de378:1802b614d91f519e124e7a8c",
+      "label": ""
+    },
+    {
+      "id": "7d004dd956d8619e124e7ce2",
+      "from": "8ea0eef436ca119e124de378",
+      "to": "attr:8ea0eef436ca119e124de378:1230ab135325819e124e7ce1",
+      "label": ""
+    },
+    {
+      "id": "a8320839b955d19e124e7e89",
+      "from": "8ea0eef436ca119e124de378",
+      "to": "attr:8ea0eef436ca119e124de378:c9eeb54dbcc819e124e7e89",
+      "label": ""
+    },
+    {
+      "id": "25cdbf9427dc319e124f1626",
+      "from": "9ccede592ab2219e124dc2b1",
+      "to": "attr:9ccede592ab2219e124dc2b1:47ec2e4c6147f19e124f1626",
+      "label": ""
+    },
+    {
+      "id": "d91340556621719e124f8f8d",
+      "from": "9ccede592ab2219e124dc2b1",
+      "to": "attr:9ccede592ab2219e124dc2b1:ae35ee06acd4e19e124f8f8c",
+      "label": ""
+    },
+    {
+      "id": "4577ab55eccc919e124fbae2",
+      "from": "9ccede592ab2219e124dc2b1",
+      "to": "attr:9ccede592ab2219e124dc2b1:3692fa8368dee19e124fbae1",
+      "label": ""
+    },
+    {
+      "id": "c6c76edf0f10519e12506de5",
+      "from": "9ccede592ab2219e124dc2b1",
+      "to": "attr:9ccede592ab2219e124dc2b1:ec37193fa4e2119e12506de4",
+      "label": ""
+    },
+    {
+      "id": "9f0014fa8bae219e12507f06",
+      "from": "9ccede592ab2219e124dc2b1",
+      "to": "attr:9ccede592ab2219e124dc2b1:2482dc1ce57d619e12507f04",
+      "label": ""
+    },
+    {
+      "id": "a3cf529d54a1b19e12527729",
+      "from": "bb65be01ce5619e125252c3",
+      "to": "attr:bb65be01ce5619e125252c3:5600cae4cae419e12527728",
+      "label": ""
+    },
+    {
+      "id": "93aac2158bb7519e1252b43a",
+      "from": "bb65be01ce5619e125252c3",
+      "to": "attr:bb65be01ce5619e125252c3:3aa0079edfca519e1252b43a",
+      "label": ""
+    },
+    {
+      "id": "a660986b375da19e1252c591",
+      "from": "bb65be01ce5619e125252c3",
+      "to": "attr:bb65be01ce5619e125252c3:0051bd52b658f19e1252c590",
+      "label": ""
+    },
+    {
+      "id": "c3353a0241cdf19e1252d2fb",
+      "from": "bb65be01ce5619e125252c3",
+      "to": "attr:bb65be01ce5619e125252c3:6475258488a7119e1252d2f9",
+      "label": ""
+    },
+    {
+      "id": "cc2a4cfc78e8819e1252e843",
+      "from": "bb65be01ce5619e125252c3",
+      "to": "attr:bb65be01ce5619e125252c3:71235bacc62f719e1252e842",
+      "label": ""
+    },
+    {
+      "id": "cedead675525b19e12530145",
+      "from": "bb65be01ce5619e125252c3",
+      "to": "attr:bb65be01ce5619e125252c3:fbabf9e58a0dd19e12530144",
+      "label": ""
+    },
+    {
+      "id": "0f95ec8da750119e12531f91",
+      "from": "bb65be01ce5619e125252c3",
+      "to": "attr:bb65be01ce5619e125252c3:8798cd65db06d19e12531f90",
+      "label": ""
+    },
+    {
+      "id": "c13388d8c6f519e125388f7",
+      "from": "3bd801d5f934b19e1249d49d",
+      "to": "a2c54855905b719e125348f6",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "1d5706fd43ef719e12539282",
+      "from": "a2c54855905b719e125348f6",
+      "to": "bb65be01ce5619e125252c3",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "83e3e181cee2f19e125586a3",
+      "from": "327689dc24d3919e12552c64",
+      "to": "attr:327689dc24d3919e12552c64:717238bca7419e125586a2",
+      "label": ""
+    },
+    {
+      "id": "007e8ea9f53a219e125650d7",
+      "from": "327689dc24d3919e12552c64",
+      "to": "attr:327689dc24d3919e12552c64:d767d84becf0319e125650d7",
+      "label": ""
+    },
+    {
+      "id": "2bf7efee1b3a319e1256c5a5",
+      "from": "327689dc24d3919e12552c64",
+      "to": "attr:327689dc24d3919e12552c64:dc8492173b5ef19e1256c5a5",
+      "label": ""
+    },
+    {
+      "id": "689eba2b69619e1257b19d",
+      "from": "327689dc24d3919e12552c64",
+      "to": "attr:327689dc24d3919e12552c64:56dddb435dba119e1257b19c",
+      "label": ""
+    },
+    {
+      "id": "6dae8c84ae63619e1258e609",
+      "from": "476710f248dd419e1258bbf7",
+      "to": "327689dc24d3919e12552c64",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "c7a285dad619a19e1258f45d",
+      "from": "bb65be01ce5619e125252c3",
+      "to": "476710f248dd419e1258bbf7",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "31618567d6d4619e12597d61",
+      "from": "45282bde48ef619e12594ecd",
+      "to": "22bac19d716ab19e11e3be0d",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "8b715dfe7192d19e12599429",
+      "from": "45282bde48ef619e12594ecd",
+      "to": "327689dc24d3919e12552c64",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "22b1f9bd2d77a19e125ac558",
+      "from": "7756619a8dc8519e125a60f5",
+      "to": "949ae518cf3be19e0e43d62e",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "1"
+    },
+    {
+      "id": "c5e2a5200a2ff19e125ae334",
+      "from": "7756619a8dc8519e125a60f5",
+      "to": "327689dc24d3919e12552c64",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "de400b014caf119e125d32fa",
+      "from": "9a7da9005545119e11c88efa",
+      "to": "9b04d6f8aff3f19e125d107f",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "0",
+      "cardAMax": "N"
+    },
+    {
+      "id": "fa7b8b7e7ee8219e125d7efe",
+      "from": "9b04d6f8aff3f19e125d107f",
+      "to": "327689dc24d3919e12552c64",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "0",
+      "cardAMax": "1"
+    },
+    {
+      "id": "b1b76b6b526b219e125f7ba8",
+      "from": "fe65d7b4bc8bd19e125f5d2b",
+      "to": "9a7da9005545119e11c88efa",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    },
+    {
+      "id": "112980bdf637419e125faa61",
+      "from": "3bd801d5f934b19e1249d49d",
+      "to": "fe65d7b4bc8bd19e125f5d2b",
+      "label": "",
+      "cardA": "1",
+      "cardAMin": "1",
+      "cardAMax": "N"
+    }
+  ]
+}
