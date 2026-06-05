@@ -15,7 +15,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.Rezolucija).Column("REZOLUCIJA");
             Map(x => x.UgaoPokrivanja).Column("UGAO_POKRIVANJA");
             Map(x => x.PrepRegOznaka).Column("PREP_REG_OZNAKA");
-            References(x => x.Senzor).Column("SENZOR_ID").Cascade.All();
+            //References(x => x.Senzor).Column("SENZOR_ID").Cascade.All();
         }
     }
 }

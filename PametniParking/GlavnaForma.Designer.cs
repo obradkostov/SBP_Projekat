@@ -3,12 +3,12 @@
     partial class GlavnaForma
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,38 +23,38 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            SuspendLayout();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
-            // label1
+            // button1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 20F);
-            label1.Location = new Point(259, 40);
-            label1.Name = "label1";
-            label1.Size = new Size(208, 37);
-            label1.TabIndex = 0;
-            label1.Text = "Pametni Parking";
+            this.button1.Location = new System.Drawing.Point(337, 174);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(239, 125);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // GlavnaForma
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
-            Name = "GlavnaForma";
-            Text = "Pametni Parking";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Name = "GlavnaForma";
+            this.Text = "GlavnaForma";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
 
-        private Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

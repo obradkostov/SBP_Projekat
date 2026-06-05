@@ -6,6 +6,7 @@ namespace PametniParking.Models
 {
     public class PretplatnaKartaZona
     {
+        public PretplatnaKartaZona() { }
         public virtual int Id { get; set; }
         public virtual PretplatnaKarta Karta { get; set; }
         public virtual ParkingZona Zona { get; set; }

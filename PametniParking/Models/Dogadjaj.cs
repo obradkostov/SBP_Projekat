@@ -6,6 +6,10 @@ namespace PametniParking.Models
 {
     public class Dogadjaj
     {
+        public Dogadjaj()
+        {
+            
+        }
         public virtual int Id { get; set; }
         public virtual int RedniBroj { get; set; }
         public virtual Senzor Senzor { get; set; }

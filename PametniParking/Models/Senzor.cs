@@ -6,6 +6,9 @@ namespace PametniParking.Models
 {
     public class Senzor
     {
+        public Senzor()
+        {
+        }
         public virtual int Id { get; set; }
         public virtual ParkingMesto ParkingMesto { get; set; }
         public virtual string Proizvodjac { get; set; }

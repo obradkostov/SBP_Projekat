@@ -6,6 +6,9 @@ namespace PametniParking.Models
 {
     public class DinamickaTarifa
     {
+        public DinamickaTarifa()
+        {
+        }
         public virtual int Id { get; set; }
         public virtual ParkingZona Zona { get; set; }
         public virtual DateTime PocetakVazenja { get; set; }

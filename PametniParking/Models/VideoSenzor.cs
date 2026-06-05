@@ -6,6 +6,9 @@ namespace PametniParking.Models
 {
     public class VideoSenzor
     {
+        public VideoSenzor()
+        {
+        }
         public virtual int SenzorId { get; set; }
         public virtual Senzor Senzor { get; set; }
         public virtual string Rezolucija { get; set; }

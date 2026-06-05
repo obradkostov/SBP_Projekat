@@ -6,6 +6,9 @@ namespace PametniParking.Models
 {
     public class Parkiranje
     {
+        public Parkiranje()
+        {
+        }
         public virtual int Id { get; set; }
         public virtual Vozilo Vozilo { get; set; }
         public virtual ParkingMesto ParkingMesto { get; set; }

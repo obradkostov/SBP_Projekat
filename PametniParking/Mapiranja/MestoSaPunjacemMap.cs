@@ -16,7 +16,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.TipKonektora).Column("TIP_KONEKTORA");
             Map(x => x.BrojPrikljucaka).Column("BROJ_PRIKLJUCAKA");
             Map(x => x.RezimiPunjenja).Column("REZIMI_PUNJENJA");
-            References(x => x.ParkingMesto).Column("PARKING_MESTO_ID").Cascade.All();
+            //References(x => x.ParkingMesto).Column("PARKING_MESTO_ID").Cascade.All();
         }
     }
 }

@@ -6,6 +6,7 @@ namespace PametniParking.Models
 {
     public class PravnoLice:Korisnik
     {
+        public PravnoLice() { }
         public virtual string Naziv { get; set; }
         public virtual string Pib { get; set; }
         public virtual string MaticniBroj { get; set; }

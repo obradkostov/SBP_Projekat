@@ -11,7 +11,7 @@ namespace PametniParking.Mapiranja
         public VoziloMap()
         {
             Table("VOZILO");
-            Id(x => x.RegistarskaOznaka).Column("REGISTARSKA_OZNAKA").GeneratedBy.Identity();
+            Id(x => x.RegistarskaOznaka).Column("REGISTARSKA_OZNAKA").GeneratedBy.Assigned().CustomType<string>();
             Map(x => x.DrzavaRegistracije).Column("DRZAVA_REGISTRACIJE");
             Map(x => x.Marka).Column("MARKA");
             Map(x => x.Model).Column("MODEL");

@@ -6,6 +6,7 @@ namespace PametniParking.Models
 {
     public class Vozilo
     {
+        public Vozilo() { }
         public virtual string RegistarskaOznaka { get; set; }
         public virtual Korisnik Korisnik { get; set; }
         public virtual string DrzavaRegistracije { get; set; }

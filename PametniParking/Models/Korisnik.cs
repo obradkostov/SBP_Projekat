@@ -6,6 +6,9 @@ namespace PametniParking.Models
 {
     public class Korisnik
     {
+        public Korisnik()
+        {
+        }
         public virtual int Id { get; set; }
         public virtual string Email { get; set; }
         public virtual string Adresa { get; set; }

@@ -13,7 +13,6 @@ namespace PametniParking.Mapiranja
             Table("DOGADJAJ");
             Id(x => x.Id).Column("ID").GeneratedBy.Identity();
             Map(x => x.RedniBroj).Column("REDNI_BROJ");
-            References(x => x.Senzor).Column("SENZOR_ID").Cascade.All();
             Map(x => x.TipDogadjaja).Column("TIP_DOGADJAJA");
             Map(x => x.VremeNastanka).Column("VREME_NASTANKA");
             Map(x => x.OcitanaVrednost).Column("OCITANA_VREDNOST");

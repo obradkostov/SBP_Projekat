@@ -6,6 +6,9 @@ namespace PametniParking.Models
 {
     public class MestoSaPunjacem
     {
+        public MestoSaPunjacem()
+        {
+        }
         public virtual int ParkingMestoId { get; set; }
         public virtual ParkingMesto ParkingMesto { get; set; }
         public virtual decimal SnagaPunjaca { get; set; }

@@ -6,6 +6,9 @@ namespace PametniParking.Models
 {
     public class FiksnaTarifa
     {
+        public FiksnaTarifa()
+        {
+        }
         public virtual int Id { get; set; }
         public virtual ParkingZona Zona { get; set; }
         public virtual string TipDana { get; set; }

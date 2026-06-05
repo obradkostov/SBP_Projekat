@@ -18,7 +18,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.DatumInstalacije).Column("DATUM_INSTALACIJE");
             Map(x => x.Status).Column("STATUS");
             Map(x => x.TipSenzora).Column("TIP_SENZORA");
-            References(x => x.ParkingMesto).Column("PARKING_MESTO_ID").Cascade.All();
+            References(x => x.ParkingMesto).Column("PARKING_MESTO_ID");
             HasMany(x => x.Dogadjaji).KeyColumn("SENZOR_ID").Cascade.All().Inverse();
         }
     }
