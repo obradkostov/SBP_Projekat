@@ -11,11 +11,11 @@ namespace PametniParking.Mapiranja
         public VideoSenzorMap()
         {
             Table("VIDEO_SENZOR");
-            Id(x => x.SenzorId).Column("SENZOR_ID").GeneratedBy.Identity();
+            Id(x => x.SenzorId).Column("SENZOR_ID").GeneratedBy.Foreign("Senzor");
             Map(x => x.Rezolucija).Column("REZOLUCIJA");
             Map(x => x.UgaoPokrivanja).Column("UGAO_POKRIVANJA");
             Map(x => x.PrepRegOznaka).Column("PREP_REG_OZNAKA");
-            //References(x => x.Senzor).Column("SENZOR_ID").Cascade.All();
+            HasOne(x => x.Senzor).Constrained();
         }
     }
 }

@@ -6,12 +6,12 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class FizickoLiceMap:ClassMap<FizickoLice>
+    public class FizickoLiceMap:SubclassMap<FizickoLice>
     {
         public FizickoLiceMap()
         {
             Table("FIZICKO_LICE");
-            Id(x => x.Id).Column("ID").GeneratedBy.Identity();
+            KeyColumn("KORISNIK_ID");
             Map(x => x.Ime).Column("IME");
             Map(x => x.Prezime).Column("PREZIME");
             Map(x => x.Jmbg).Column("JMBG");

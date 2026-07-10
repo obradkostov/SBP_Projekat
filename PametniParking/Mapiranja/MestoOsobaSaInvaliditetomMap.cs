@@ -10,9 +10,9 @@ namespace PametniParking.Mapiranja
     {
         public MestoOsobaSaInvaliditetomMap()
         {
-            Table("MESTO_OSOBA_SA_INVALIDITETOM");
-            Id(x=>x.ParkingMestoId).Column("PARKING_MESTO_ID").GeneratedBy.Assigned();
-            //References(x => x.ParkingMesto).Column("PARKING_MESTO_ID").Cascade.All();
+            Table("MESTO_OSOBE_SA_INVALIDITETOM");
+            Id(x=>x.ParkingMestoId).Column("PARKING_MESTO_ID").GeneratedBy.Foreign("ParkingMesto");
+            HasOne(x => x.ParkingMesto).Constrained();
             Map(x => x.NivoPristupacnosti).Column("NIVO_PRISTUPACNOSTI");
         }
     }
