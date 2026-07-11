@@ -22,6 +22,14 @@ namespace PametniParking
             Application.Exit();
         }
 
+        private void btnZone_Click(object sender, EventArgs e)
+        {
+            using (var forma = new ParkingZonaForma())
+            {
+                forma.ShowDialog();
+            }
+        }
+
         /*private void button1_Click(object sender, EventArgs e)
         {
             try

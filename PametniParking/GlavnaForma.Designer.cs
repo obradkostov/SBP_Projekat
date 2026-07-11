@@ -43,18 +43,19 @@
             // 
             this.btnZone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnZone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnZone.Location = new System.Drawing.Point(51, 48);
+            this.btnZone.Location = new System.Drawing.Point(22, 48);
             this.btnZone.Name = "btnZone";
             this.btnZone.Size = new System.Drawing.Size(92, 57);
             this.btnZone.TabIndex = 0;
             this.btnZone.Text = "Zone";
             this.btnZone.UseVisualStyleBackColor = false;
+            this.btnZone.Click += new System.EventHandler(this.btnZone_Click);
             // 
             // btnMesta
             // 
             this.btnMesta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnMesta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMesta.Location = new System.Drawing.Point(180, 48);
+            this.btnMesta.Location = new System.Drawing.Point(156, 48);
             this.btnMesta.Name = "btnMesta";
             this.btnMesta.Size = new System.Drawing.Size(92, 57);
             this.btnMesta.TabIndex = 0;
@@ -65,7 +66,7 @@
             // 
             this.btnParkinzi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnParkinzi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnParkinzi.Location = new System.Drawing.Point(319, 48);
+            this.btnParkinzi.Location = new System.Drawing.Point(291, 48);
             this.btnParkinzi.Name = "btnParkinzi";
             this.btnParkinzi.Size = new System.Drawing.Size(92, 57);
             this.btnParkinzi.TabIndex = 1;
@@ -76,7 +77,7 @@
             // 
             this.btnVozila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnVozila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVozila.Location = new System.Drawing.Point(458, 48);
+            this.btnVozila.Location = new System.Drawing.Point(424, 48);
             this.btnVozila.Name = "btnVozila";
             this.btnVozila.Size = new System.Drawing.Size(92, 57);
             this.btnVozila.TabIndex = 2;
@@ -87,7 +88,7 @@
             // 
             this.btnKorisnici.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnKorisnici.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKorisnici.Location = new System.Drawing.Point(51, 128);
+            this.btnKorisnici.Location = new System.Drawing.Point(22, 128);
             this.btnKorisnici.Name = "btnKorisnici";
             this.btnKorisnici.Size = new System.Drawing.Size(92, 57);
             this.btnKorisnici.TabIndex = 3;
@@ -98,7 +99,7 @@
             // 
             this.btnPretplate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnPretplate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPretplate.Location = new System.Drawing.Point(180, 128);
+            this.btnPretplate.Location = new System.Drawing.Point(156, 128);
             this.btnPretplate.Name = "btnPretplate";
             this.btnPretplate.Size = new System.Drawing.Size(92, 57);
             this.btnPretplate.TabIndex = 4;
@@ -109,7 +110,7 @@
             // 
             this.btnSenzori.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnSenzori.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSenzori.Location = new System.Drawing.Point(319, 128);
+            this.btnSenzori.Location = new System.Drawing.Point(291, 128);
             this.btnSenzori.Name = "btnSenzori";
             this.btnSenzori.Size = new System.Drawing.Size(92, 57);
             this.btnSenzori.TabIndex = 5;
@@ -120,7 +121,7 @@
             // 
             this.btnIzvestaji.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnIzvestaji.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIzvestaji.Location = new System.Drawing.Point(458, 128);
+            this.btnIzvestaji.Location = new System.Drawing.Point(424, 128);
             this.btnIzvestaji.Name = "btnIzvestaji";
             this.btnIzvestaji.Size = new System.Drawing.Size(92, 57);
             this.btnIzvestaji.TabIndex = 6;
