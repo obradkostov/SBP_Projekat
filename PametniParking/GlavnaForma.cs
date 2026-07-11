@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PametniParking.Forme;
+using PametniParking.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +27,62 @@ namespace PametniParking
         private void btnZone_Click(object sender, EventArgs e)
         {
             using (var forma = new ParkingZonaForma())
+            {
+                forma.ShowDialog();
+            }
+        }
+
+        private void btnMesta_Click(object sender, EventArgs e)
+        {
+            using (var forma = new ParkingMestoForma())
+            {
+                forma.ShowDialog();
+            }
+        }
+
+        private void btnDogadjaj_Click(object sender, EventArgs e)
+        {
+            using (var forma = new DogadjajForma())
+            {
+                forma.ShowDialog();
+            }
+        }
+
+        private void btnVozila_Click(object sender, EventArgs e)
+        {
+            using (var forma = new VoziloForma())
+            {
+                forma.ShowDialog();
+            }
+        }
+
+        private void btnKorisnici_Click(object sender, EventArgs e)
+        {
+            using (var forma = new KorisnikForma())
+            {
+                forma.ShowDialog();
+            }
+        }
+
+        private void btnPretplate_Click(object sender, EventArgs e)
+        {
+            using (var forma = new PretplatnaKartaForma())
+            {
+                forma.ShowDialog();
+            }
+        }
+
+        private void btnSenzori_Click(object sender, EventArgs e)
+        {
+            using (var forma = new SenzorForma())
+            {
+                forma.ShowDialog();
+            }
+        }
+
+        private void btnIzvestaji_Click(object sender, EventArgs e)
+        {
+            using (var forma = new IzvestajForma())
             {
                 forma.ShowDialog();
             }

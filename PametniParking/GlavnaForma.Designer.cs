@@ -30,7 +30,7 @@
         {
             this.btnZone = new System.Windows.Forms.Button();
             this.btnMesta = new System.Windows.Forms.Button();
-            this.btnParkinzi = new System.Windows.Forms.Button();
+            this.btnDogadjaj = new System.Windows.Forms.Button();
             this.btnVozila = new System.Windows.Forms.Button();
             this.btnKorisnici = new System.Windows.Forms.Button();
             this.btnPretplate = new System.Windows.Forms.Button();
@@ -47,7 +47,7 @@
             this.btnZone.Name = "btnZone";
             this.btnZone.Size = new System.Drawing.Size(92, 57);
             this.btnZone.TabIndex = 0;
-            this.btnZone.Text = "Zone";
+            this.btnZone.Text = "Zona";
             this.btnZone.UseVisualStyleBackColor = false;
             this.btnZone.Click += new System.EventHandler(this.btnZone_Click);
             // 
@@ -59,19 +59,21 @@
             this.btnMesta.Name = "btnMesta";
             this.btnMesta.Size = new System.Drawing.Size(92, 57);
             this.btnMesta.TabIndex = 0;
-            this.btnMesta.Text = "Parking Mesta";
+            this.btnMesta.Text = "Parking Mesto";
             this.btnMesta.UseVisualStyleBackColor = false;
+            this.btnMesta.Click += new System.EventHandler(this.btnMesta_Click);
             // 
-            // btnParkinzi
+            // btnDogadjaj
             // 
-            this.btnParkinzi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnParkinzi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnParkinzi.Location = new System.Drawing.Point(291, 48);
-            this.btnParkinzi.Name = "btnParkinzi";
-            this.btnParkinzi.Size = new System.Drawing.Size(92, 57);
-            this.btnParkinzi.TabIndex = 1;
-            this.btnParkinzi.Text = "Parkinzi";
-            this.btnParkinzi.UseVisualStyleBackColor = false;
+            this.btnDogadjaj.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnDogadjaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDogadjaj.Location = new System.Drawing.Point(291, 48);
+            this.btnDogadjaj.Name = "btnDogadjaj";
+            this.btnDogadjaj.Size = new System.Drawing.Size(92, 57);
+            this.btnDogadjaj.TabIndex = 1;
+            this.btnDogadjaj.Text = "Dogadjaj";
+            this.btnDogadjaj.UseVisualStyleBackColor = false;
+            this.btnDogadjaj.Click += new System.EventHandler(this.btnParkinzi_Click);
             // 
             // btnVozila
             // 
@@ -81,8 +83,9 @@
             this.btnVozila.Name = "btnVozila";
             this.btnVozila.Size = new System.Drawing.Size(92, 57);
             this.btnVozila.TabIndex = 2;
-            this.btnVozila.Text = "Vozila";
+            this.btnVozila.Text = "Vozilo";
             this.btnVozila.UseVisualStyleBackColor = false;
+            this.btnVozila.Click += new System.EventHandler(this.btnVozila_Click);
             // 
             // btnKorisnici
             // 
@@ -92,8 +95,9 @@
             this.btnKorisnici.Name = "btnKorisnici";
             this.btnKorisnici.Size = new System.Drawing.Size(92, 57);
             this.btnKorisnici.TabIndex = 3;
-            this.btnKorisnici.Text = "Korisnici";
+            this.btnKorisnici.Text = "Korisnik";
             this.btnKorisnici.UseVisualStyleBackColor = false;
+            this.btnKorisnici.Click += new System.EventHandler(this.btnKorisnici_Click);
             // 
             // btnPretplate
             // 
@@ -103,8 +107,9 @@
             this.btnPretplate.Name = "btnPretplate";
             this.btnPretplate.Size = new System.Drawing.Size(92, 57);
             this.btnPretplate.TabIndex = 4;
-            this.btnPretplate.Text = "Pretplate";
+            this.btnPretplate.Text = "Pretplata";
             this.btnPretplate.UseVisualStyleBackColor = false;
+            this.btnPretplate.Click += new System.EventHandler(this.btnPretplate_Click);
             // 
             // btnSenzori
             // 
@@ -114,8 +119,9 @@
             this.btnSenzori.Name = "btnSenzori";
             this.btnSenzori.Size = new System.Drawing.Size(92, 57);
             this.btnSenzori.TabIndex = 5;
-            this.btnSenzori.Text = "Senzori";
+            this.btnSenzori.Text = "Senzor";
             this.btnSenzori.UseVisualStyleBackColor = false;
+            this.btnSenzori.Click += new System.EventHandler(this.btnSenzori_Click);
             // 
             // btnIzvestaji
             // 
@@ -125,8 +131,9 @@
             this.btnIzvestaji.Name = "btnIzvestaji";
             this.btnIzvestaji.Size = new System.Drawing.Size(92, 57);
             this.btnIzvestaji.TabIndex = 6;
-            this.btnIzvestaji.Text = "Izvestaji";
+            this.btnIzvestaji.Text = "Izvestaj";
             this.btnIzvestaji.UseVisualStyleBackColor = false;
+            this.btnIzvestaji.Click += new System.EventHandler(this.btnIzvestaji_Click);
             // 
             // btnIzlaz
             // 
@@ -154,7 +161,7 @@
             this.Controls.Add(this.btnPretplate);
             this.Controls.Add(this.btnKorisnici);
             this.Controls.Add(this.btnVozila);
-            this.Controls.Add(this.btnParkinzi);
+            this.Controls.Add(this.btnDogadjaj);
             this.Controls.Add(this.btnMesta);
             this.Controls.Add(this.btnZone);
             this.Name = "GlavnaForma";
@@ -168,7 +175,7 @@
 
         private System.Windows.Forms.Button btnZone;
         private System.Windows.Forms.Button btnMesta;
-        private System.Windows.Forms.Button btnParkinzi;
+        private System.Windows.Forms.Button btnDogadjaj;
         private System.Windows.Forms.Button btnVozila;
         private System.Windows.Forms.Button btnKorisnici;
         private System.Windows.Forms.Button btnPretplate;
