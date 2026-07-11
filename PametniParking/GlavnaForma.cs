@@ -17,7 +17,12 @@ namespace PametniParking
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnIzlaz_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        /*private void button1_Click(object sender, EventArgs e)
         {
             try
             {
@@ -33,6 +38,6 @@ namespace PametniParking
                     "\n\nInner2: " + ex.InnerException?.InnerException?.Message +
                     "\n\nInner3: " + ex.InnerException?.InnerException?.InnerException?.Message);
             }
-        }
+        }*/
     }
 }
