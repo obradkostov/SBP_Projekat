@@ -1,6 +1,6 @@
 ﻿namespace PametniParking.Forme
 {
-    partial class ParkiranjeFOrma
+    partial class ParkiranjeForma
     {
         /// <summary>
         /// Required designer variable.

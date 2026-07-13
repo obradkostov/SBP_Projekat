@@ -107,6 +107,96 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forme\DogadjajForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DogadjajForma.Designer.cs">
+      <DependentUpon>DogadjajForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzvestajForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzvestajForma.Designer.cs">
+      <DependentUpon>IzvestajForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\KorisnikEditForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\KorisnikEditForma.Designer.cs">
+      <DependentUpon>KorisnikEditForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\KorisnikForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\KorisnikForma.Designer.cs">
+      <DependentUpon>KorisnikForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\ParkingMestoEditForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ParkingMestoEditForma.Designer.cs">
+      <DependentUpon>ParkingMestoEditForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\ParkingMestoForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ParkingMestoForma.Designer.cs">
+      <DependentUpon>ParkingMestoForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\ParkingZonaEditForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ParkingZonaEditForma.Designer.cs">
+      <DependentUpon>ParkingZonaEditForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\ParkiranjeEditForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ParkiranjeEditForma.Designer.cs">
+      <DependentUpon>ParkiranjeEditForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\ParkiranjeForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ParkiranjeForma.Designer.cs">
+      <DependentUpon>ParkiranjeForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\PretplatnaKartaEditForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\PretplatnaKartaEditForma.Designer.cs">
+      <DependentUpon>PretplatnaKartaEditForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\PretplatnaKartaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\PretplatnaKartaForma.Designer.cs">
+      <DependentUpon>PretplatnaKartaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\SenzorEditForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\SenzorEditForma.Designer.cs">
+      <DependentUpon>SenzorEditForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\SenzorForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\SenzorForma.Designer.cs">
+      <DependentUpon>SenzorForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\VoziloEditForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\VoziloEditForma.Designer.cs">
+      <DependentUpon>VoziloEditForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\VoziloForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\VoziloForma.Designer.cs">
+      <DependentUpon>VoziloForma.cs</DependentUpon>
+    </Compile>
     <Compile Include="GlavnaForma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,8 +238,17 @@
     <Compile Include="Models\VideoSenzor.cs" />
     <Compile Include="Models\Vozilo.cs" />
     <Compile Include="NHibernateHelper.cs" />
+    <Compile Include="Forme\ParkingZonaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ParkingZonaForma.Designer.cs">
+      <DependentUpon>ParkingZonaForma.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forme\ParkingZonaForma.resx">
+      <DependentUpon>ParkingZonaForma.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GlavnaForma.resx">
       <DependentUpon>GlavnaForma.cs</DependentUpon>
     </EmbeddedResource>

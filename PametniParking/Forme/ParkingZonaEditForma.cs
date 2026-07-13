@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace PametniParking.Forme
 {
-    public partial class ParkingZonaEdit : Form
+    public partial class ParkingZonaEditForma : Form
     {
-        public ParkingZonaEdit()
+        public ParkingZonaEditForma()
         {
             InitializeComponent();
+        }
+
+        private void btnSacuvaj_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOtkazi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ParkingZonaEditForma_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

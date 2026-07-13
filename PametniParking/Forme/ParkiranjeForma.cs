@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PametniParking.Forme
 {
-    public partial class ParkiranjeFOrma : Form
+    public partial class ParkiranjeForma : Form
     {
-        public ParkiranjeFOrma()
+        public ParkiranjeForma()
         {
             InitializeComponent();
         }

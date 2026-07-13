@@ -16,5 +16,30 @@ namespace PametniParking
         {
             InitializeComponent();
         }
+
+        private void btnDodaj_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnIzmeni_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnObrisi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnIzlaz_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void ParkingZonaForma_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
