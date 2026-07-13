@@ -246,6 +246,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forme\ParkingZonaEditForma.resx">
+      <DependentUpon>ParkingZonaEditForma.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\ParkingZonaForma.resx">
       <DependentUpon>ParkingZonaForma.cs</DependentUpon>
     </EmbeddedResource>

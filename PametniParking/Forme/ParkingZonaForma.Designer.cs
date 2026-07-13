@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvZone = new System.Windows.Forms.DataGridView();
             this.btnIzmeni = new System.Windows.Forms.Button();
             this.btnDodaj = new System.Windows.Forms.Button();
             this.btnObrisi = new System.Windows.Forms.Button();
             this.btnIzlaz = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvZone)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvZone
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(800, 354);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvZone.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvZone.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvZone.Location = new System.Drawing.Point(0, 0);
+            this.dgvZone.MultiSelect = false;
+            this.dgvZone.Name = "dgvZone";
+            this.dgvZone.ReadOnly = true;
+            this.dgvZone.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvZone.Size = new System.Drawing.Size(800, 354);
+            this.dgvZone.TabIndex = 0;
             // 
             // btnIzmeni
             // 
@@ -106,18 +106,18 @@
             this.Controls.Add(this.btnObrisi);
             this.Controls.Add(this.btnDodaj);
             this.Controls.Add(this.btnIzmeni);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvZone);
             this.Name = "ParkingZonaForma";
             this.Text = "ParkingZonaForma";
             this.Load += new System.EventHandler(this.ParkingZonaForma_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvZone)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvZone;
         private System.Windows.Forms.Button btnIzmeni;
         private System.Windows.Forms.Button btnDodaj;
         private System.Windows.Forms.Button btnObrisi;
