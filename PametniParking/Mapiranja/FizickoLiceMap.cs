@@ -6,11 +6,11 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class FizickoLiceMap:SubclassMap<FizickoLice>
+    public class FizickoLiceMap : SubclassMap<FizickoLice>
     {
         public FizickoLiceMap()
         {
-            Table("FIZICKO_LICE");
+            Table("S19702.FIZICKO_LICE");
             KeyColumn("KORISNIK_ID");
             Map(x => x.Ime).Column("IME");
             Map(x => x.Prezime).Column("PREZIME");

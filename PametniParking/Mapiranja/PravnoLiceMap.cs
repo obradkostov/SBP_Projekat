@@ -6,11 +6,11 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class PravnoLiceMap:SubclassMap<PravnoLice>
+    public class PravnoLiceMap : SubclassMap<PravnoLice>
     {
         public PravnoLiceMap()
         {
-            Table("PRAVNO_LICE");
+            Table("S19702.PRAVNO_LICE");
             KeyColumn("KORISNIK_ID");
             Map(x => x.Naziv).Column("NAZIV");
             Map(x => x.Pib).Column("PIB");

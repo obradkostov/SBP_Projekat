@@ -6,14 +6,14 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class TelefonMap:ClassMap<Telefon>
+    public class TelefonMap : ClassMap<Telefon>
     {
         public TelefonMap()
         {
-            Table("TELEFON");
-            Id(x => x.Id).Column("ID").GeneratedBy.Identity();
+            Table("S19702.TELEFON");
+            Id(x => x.Id).Column("ID").GeneratedBy.Sequence("S19702.HIBERNATE_SEQUENCE");
             Map(x => x.BrojTelefona).Column("BROJ_TELEFONA");
-            References(x => x.Korisnik).Column("KORISNIK_ID").Cascade.All();
+            References(x => x.Korisnik).Column("KORISNIK_ID");
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace PametniParking.Forme
 {
-    partial class PretplatnaKartaEditForma
+    partial class DogadjajEditForma
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -15,19 +15,19 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbKorisnik = new System.Windows.Forms.ComboBox();
+            this.txtRedniBroj = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtTipPretplate = new System.Windows.Forms.TextBox();
+            this.cmbSenzor = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dtpPocetak = new System.Windows.Forms.DateTimePicker();
+            this.txtTip = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dtpKraj = new System.Windows.Forms.DateTimePicker();
+            this.dtpVreme = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtCena = new System.Windows.Forms.TextBox();
+            this.txtOcitanaVrednost = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtMaksBrVozila = new System.Windows.Forms.TextBox();
+            this.txtNivoPouzdanosti = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.clbZone = new System.Windows.Forms.CheckedListBox();
+            this.txtPotvrda = new System.Windows.Forms.TextBox();
             this.btnSacuvaj = new System.Windows.Forms.Button();
             this.btnOtkazi = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -38,18 +38,16 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.Location = new System.Drawing.Point(20, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 17);
+            this.label1.Size = new System.Drawing.Size(90, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Korisnik:";
+            this.label1.Text = "Redni broj:";
             //
-            // cmbKorisnik
+            // txtRedniBroj
             //
-            this.cmbKorisnik.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbKorisnik.FormattingEnabled = true;
-            this.cmbKorisnik.Location = new System.Drawing.Point(210, 18);
-            this.cmbKorisnik.Name = "cmbKorisnik";
-            this.cmbKorisnik.Size = new System.Drawing.Size(190, 21);
-            this.cmbKorisnik.TabIndex = 1;
+            this.txtRedniBroj.Location = new System.Drawing.Point(210, 18);
+            this.txtRedniBroj.Name = "txtRedniBroj";
+            this.txtRedniBroj.Size = new System.Drawing.Size(160, 20);
+            this.txtRedniBroj.TabIndex = 1;
             //
             // label2
             //
@@ -57,16 +55,18 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label2.Location = new System.Drawing.Point(20, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 17);
+            this.label2.Size = new System.Drawing.Size(60, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Tip pretplate:";
+            this.label2.Text = "Senzor:";
             //
-            // txtTipPretplate
+            // cmbSenzor
             //
-            this.txtTipPretplate.Location = new System.Drawing.Point(210, 53);
-            this.txtTipPretplate.Name = "txtTipPretplate";
-            this.txtTipPretplate.Size = new System.Drawing.Size(190, 20);
-            this.txtTipPretplate.TabIndex = 3;
+            this.cmbSenzor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSenzor.FormattingEnabled = true;
+            this.cmbSenzor.Location = new System.Drawing.Point(210, 53);
+            this.cmbSenzor.Name = "cmbSenzor";
+            this.cmbSenzor.Size = new System.Drawing.Size(160, 21);
+            this.cmbSenzor.TabIndex = 3;
             //
             // label3
             //
@@ -74,16 +74,16 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label3.Location = new System.Drawing.Point(20, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 17);
+            this.label3.Size = new System.Drawing.Size(120, 17);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Početak važenja:";
+            this.label3.Text = "Tip događaja:";
             //
-            // dtpPocetak
+            // txtTip
             //
-            this.dtpPocetak.Location = new System.Drawing.Point(210, 88);
-            this.dtpPocetak.Name = "dtpPocetak";
-            this.dtpPocetak.Size = new System.Drawing.Size(190, 20);
-            this.dtpPocetak.TabIndex = 5;
+            this.txtTip.Location = new System.Drawing.Point(210, 88);
+            this.txtTip.Name = "txtTip";
+            this.txtTip.Size = new System.Drawing.Size(160, 20);
+            this.txtTip.TabIndex = 5;
             //
             // label4
             //
@@ -91,16 +91,18 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label4.Location = new System.Drawing.Point(20, 125);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 17);
+            this.label4.Size = new System.Drawing.Size(130, 17);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Kraj važenja:";
+            this.label4.Text = "Vreme nastanka:";
             //
-            // dtpKraj
+            // dtpVreme
             //
-            this.dtpKraj.Location = new System.Drawing.Point(210, 123);
-            this.dtpKraj.Name = "dtpKraj";
-            this.dtpKraj.Size = new System.Drawing.Size(190, 20);
-            this.dtpKraj.TabIndex = 7;
+            this.dtpVreme.CustomFormat = "dd.MM.yyyy HH:mm";
+            this.dtpVreme.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpVreme.Location = new System.Drawing.Point(210, 123);
+            this.dtpVreme.Name = "dtpVreme";
+            this.dtpVreme.Size = new System.Drawing.Size(160, 20);
+            this.dtpVreme.TabIndex = 7;
             //
             // label5
             //
@@ -108,16 +110,16 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label5.Location = new System.Drawing.Point(20, 160);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 17);
+            this.label5.Size = new System.Drawing.Size(130, 17);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Cena:";
+            this.label5.Text = "Očitana vrednost:";
             //
-            // txtCena
+            // txtOcitanaVrednost
             //
-            this.txtCena.Location = new System.Drawing.Point(210, 158);
-            this.txtCena.Name = "txtCena";
-            this.txtCena.Size = new System.Drawing.Size(190, 20);
-            this.txtCena.TabIndex = 9;
+            this.txtOcitanaVrednost.Location = new System.Drawing.Point(210, 158);
+            this.txtOcitanaVrednost.Name = "txtOcitanaVrednost";
+            this.txtOcitanaVrednost.Size = new System.Drawing.Size(160, 20);
+            this.txtOcitanaVrednost.TabIndex = 9;
             //
             // label6
             //
@@ -125,16 +127,16 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label6.Location = new System.Drawing.Point(20, 195);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(170, 17);
+            this.label6.Size = new System.Drawing.Size(140, 17);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Maks. broj vozila:";
+            this.label6.Text = "Nivo pouzdanosti:";
             //
-            // txtMaksBrVozila
+            // txtNivoPouzdanosti
             //
-            this.txtMaksBrVozila.Location = new System.Drawing.Point(210, 193);
-            this.txtMaksBrVozila.Name = "txtMaksBrVozila";
-            this.txtMaksBrVozila.Size = new System.Drawing.Size(190, 20);
-            this.txtMaksBrVozila.TabIndex = 11;
+            this.txtNivoPouzdanosti.Location = new System.Drawing.Point(210, 193);
+            this.txtNivoPouzdanosti.Name = "txtNivoPouzdanosti";
+            this.txtNivoPouzdanosti.Size = new System.Drawing.Size(160, 20);
+            this.txtNivoPouzdanosti.TabIndex = 11;
             //
             // label7
             //
@@ -142,26 +144,24 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label7.Location = new System.Drawing.Point(20, 230);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(150, 17);
+            this.label7.Size = new System.Drawing.Size(70, 17);
             this.label7.TabIndex = 12;
-            this.label7.Text = "Zone u kojima važi:";
+            this.label7.Text = "Potvrda:";
             //
-            // clbZone
+            // txtPotvrda
             //
-            this.clbZone.CheckOnClick = true;
-            this.clbZone.FormattingEnabled = true;
-            this.clbZone.Location = new System.Drawing.Point(20, 255);
-            this.clbZone.Name = "clbZone";
-            this.clbZone.Size = new System.Drawing.Size(380, 100);
-            this.clbZone.TabIndex = 13;
+            this.txtPotvrda.Location = new System.Drawing.Point(210, 228);
+            this.txtPotvrda.Name = "txtPotvrda";
+            this.txtPotvrda.Size = new System.Drawing.Size(160, 20);
+            this.txtPotvrda.TabIndex = 13;
             //
             // btnSacuvaj
             //
             this.btnSacuvaj.BackColor = System.Drawing.Color.YellowGreen;
             this.btnSacuvaj.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnSacuvaj.Location = new System.Drawing.Point(20, 370);
+            this.btnSacuvaj.Location = new System.Drawing.Point(20, 270);
             this.btnSacuvaj.Name = "btnSacuvaj";
-            this.btnSacuvaj.Size = new System.Drawing.Size(185, 45);
+            this.btnSacuvaj.Size = new System.Drawing.Size(160, 45);
             this.btnSacuvaj.TabIndex = 14;
             this.btnSacuvaj.Text = "Sačuvaj";
             this.btnSacuvaj.UseVisualStyleBackColor = false;
@@ -171,39 +171,39 @@
             //
             this.btnOtkazi.BackColor = System.Drawing.Color.YellowGreen;
             this.btnOtkazi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnOtkazi.Location = new System.Drawing.Point(215, 370);
+            this.btnOtkazi.Location = new System.Drawing.Point(210, 270);
             this.btnOtkazi.Name = "btnOtkazi";
-            this.btnOtkazi.Size = new System.Drawing.Size(185, 45);
+            this.btnOtkazi.Size = new System.Drawing.Size(160, 45);
             this.btnOtkazi.TabIndex = 15;
             this.btnOtkazi.Text = "Otkaži";
             this.btnOtkazi.UseVisualStyleBackColor = false;
             this.btnOtkazi.Click += new System.EventHandler(this.btnOtkazi_Click);
             //
-            // PretplatnaKartaEditForma
+            // DogadjajEditForma
             //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(420, 435);
+            this.ClientSize = new System.Drawing.Size(392, 335);
             this.Controls.Add(this.btnOtkazi);
             this.Controls.Add(this.btnSacuvaj);
-            this.Controls.Add(this.clbZone);
+            this.Controls.Add(this.txtPotvrda);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txtMaksBrVozila);
+            this.Controls.Add(this.txtNivoPouzdanosti);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtCena);
+            this.Controls.Add(this.txtOcitanaVrednost);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dtpKraj);
+            this.Controls.Add(this.dtpVreme);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.dtpPocetak);
+            this.Controls.Add(this.txtTip);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtTipPretplate);
+            this.Controls.Add(this.cmbSenzor);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.cmbKorisnik);
+            this.Controls.Add(this.txtRedniBroj);
             this.Controls.Add(this.label1);
-            this.Name = "PretplatnaKartaEditForma";
-            this.Text = "PretplatnaKartaEdit";
-            this.Load += new System.EventHandler(this.PretplatnaKartaEditForma_Load);
+            this.Name = "DogadjajEditForma";
+            this.Text = "DogadjajEdit";
+            this.Load += new System.EventHandler(this.DogadjajEditForma_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -211,19 +211,19 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmbKorisnik;
+        private System.Windows.Forms.TextBox txtRedniBroj;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtTipPretplate;
+        private System.Windows.Forms.ComboBox cmbSenzor;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dtpPocetak;
+        private System.Windows.Forms.TextBox txtTip;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dtpKraj;
+        private System.Windows.Forms.DateTimePicker dtpVreme;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtCena;
+        private System.Windows.Forms.TextBox txtOcitanaVrednost;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtMaksBrVozila;
+        private System.Windows.Forms.TextBox txtNivoPouzdanosti;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckedListBox clbZone;
+        private System.Windows.Forms.TextBox txtPotvrda;
         private System.Windows.Forms.Button btnSacuvaj;
         private System.Windows.Forms.Button btnOtkazi;
     }

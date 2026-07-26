@@ -6,12 +6,12 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class KorisnikMap:ClassMap<Korisnik>
+    public class KorisnikMap : ClassMap<Korisnik>
     {
         public KorisnikMap()
         {
-            Table("KORISNIK");
-            Id(x => x.Id).Column("ID").GeneratedBy.Identity();
+            Table("S19702.KORISNIK");
+            Id(x => x.Id).Column("ID").GeneratedBy.Sequence("S19702.HIBERNATE_SEQUENCE");
             Map(x => x.Email).Column("EMAIL");
             Map(x => x.Adresa).Column("ADRESA");
             Map(x => x.StatusNaloga).Column("STATUS_NALOGA");
@@ -21,3 +21,4 @@ namespace PametniParking.Mapiranja
         }
     }
 }
+

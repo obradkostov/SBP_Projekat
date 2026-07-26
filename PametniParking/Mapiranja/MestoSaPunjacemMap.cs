@@ -6,11 +6,11 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class MestoSaPunjacemMap:ClassMap<MestoSaPunjacem>
+    public class MestoSaPunjacemMap : ClassMap<MestoSaPunjacem>
     {
         public MestoSaPunjacemMap()
         {
-            Table("MESTO_SA_PUNJACEM_ZA_EV");
+            Table("S19702.MESTO_SA_PUNJACEM_ZA_EV");
             Id(x => x.ParkingMestoId).Column("PARKING_MESTO_ID").GeneratedBy.Foreign("ParkingMesto");
             Map(x => x.SnagaPunjaca).Column("SNAGA_PUNJACA");
             Map(x => x.TipKonektora).Column("TIP_KONEKTORA");

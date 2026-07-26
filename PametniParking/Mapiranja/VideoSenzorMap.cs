@@ -6,11 +6,11 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class VideoSenzorMap:ClassMap<VideoSenzor>
+    public class VideoSenzorMap : ClassMap<VideoSenzor>
     {
         public VideoSenzorMap()
         {
-            Table("VIDEO_SENZOR");
+            Table("S19702.VIDEO_SENZOR");
             Id(x => x.SenzorId).Column("SENZOR_ID").GeneratedBy.Foreign("Senzor");
             Map(x => x.Rezolucija).Column("REZOLUCIJA");
             Map(x => x.UgaoPokrivanja).Column("UGAO_POKRIVANJA");

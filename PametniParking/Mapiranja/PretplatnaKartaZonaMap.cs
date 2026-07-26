@@ -6,14 +6,14 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class PretplatnaKartaZonaMap:ClassMap<PretplatnaKartaZona>
+    public class PretplatnaKartaZonaMap : ClassMap<PretplatnaKartaZona>
     {
         public PretplatnaKartaZonaMap()
         {
-            Table("PRETPLATNA_KARTA_ZONA");
-            Id(x => x.Id).Column("ID").GeneratedBy.Identity();
-            References(x => x.Karta).Column("KARTA_ID").Cascade.All();
-            References(x => x.Zona).Column("ZONA_ID").Cascade.All();
+            Table("S19702.PRETPLATNA_KARTA_ZONE");
+            Id(x => x.Id).Column("ID").GeneratedBy.Sequence("S19702.HIBERNATE_SEQUENCE");
+            References(x => x.Karta).Column("KARTA_ID");
+            References(x => x.Zona).Column("ZONA_ID");
         }
     }
 }

@@ -107,6 +107,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forme\DogadjajEditForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DogadjajEditForma.Designer.cs">
+      <DependentUpon>DogadjajEditForma.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\DogadjajForma.cs">
       <SubType>Form</SubType>
     </Compile>

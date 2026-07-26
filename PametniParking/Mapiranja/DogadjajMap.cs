@@ -6,19 +6,19 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class DogadjajMap:ClassMap<Dogadjaj>
+    public class DogadjajMap : ClassMap<Dogadjaj>
     {
         public DogadjajMap()
         {
-            Table("DOGADJAJ");
-            Id(x => x.Id).Column("ID").GeneratedBy.Identity();
+            Table("S19702.DOGADJAJ");
+            Id(x => x.Id).Column("ID").GeneratedBy.Sequence("S19702.HIBERNATE_SEQUENCE");
             Map(x => x.RedniBroj).Column("REDNI_BROJ");
             Map(x => x.TipDogadjaja).Column("TIP_DOGADJAJA");
             Map(x => x.VremeNastanka).Column("VREME_NASTANKA");
             Map(x => x.OcitanaVrednost).Column("OCITANA_VREDNOST");
             Map(x => x.NivoPouzdanosti).Column("NIVO_POUZDANOSTI");
             Map(x => x.Potvrda).Column("POTVRDA");
-            References(x=>x.Senzor).Column("SENZOR_ID");
+            References(x => x.Senzor).Column("SENZOR_ID");
         }
     }
 }

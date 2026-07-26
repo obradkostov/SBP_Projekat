@@ -6,12 +6,12 @@ using System.Text;
 
 namespace PametniParking.Mapiranja
 {
-    public class DinamickaTarifaMap:ClassMap<DinamickaTarifa>
+    public class DinamickaTarifaMap : ClassMap<DinamickaTarifa>
     {
         public DinamickaTarifaMap()
         {
-            Table("DINAMICKA_TARIFA");
-            Id(x => x.Id).Column("ID").GeneratedBy.Identity();
+            Table("S19702.DINAMICKA_TARIFA");
+            Id(x => x.Id).Column("ID").GeneratedBy.Sequence("S19702.HIBERNATE_SEQUENCE");
             Map(x => x.PocetakVazenja).Column("POCETAK_VAZENJA");
             Map(x => x.KrajVazenja).Column("KRAJ_VAZENJA");
             Map(x => x.RazlogPromene).Column("RAZLOG_PROMENE");
@@ -19,7 +19,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.PopunjenostZone).Column("POPUNJENOST_ZONE");
             Map(x => x.TrajanjeParkirana).Column("TRAJANJE_PARKIRANJA");
             Map(x => x.IznosTarife).Column("IZNOS_TARIFE");
-            References(x => x.Zona).Column("ZONA_ID").Cascade.All();
+            References(x => x.Zona).Column("ZONA_ID");
         }
     }
 }
