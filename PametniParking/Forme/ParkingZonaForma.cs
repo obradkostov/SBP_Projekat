@@ -81,7 +81,7 @@ namespace PametniParking
 
         private void btnIzlaz_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void ParkingZonaForma_Load(object sender, EventArgs e)

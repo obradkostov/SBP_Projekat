@@ -36,7 +36,7 @@ namespace PametniParking.Forme
                     var korisnik = session.Get<Korisnik>(_korisnikId.Value);
                     txtEmail.Text = korisnik.Email;
                     txtAdresa.Text = korisnik.Adresa;
-                    txtStatusNaloga.Text = korisnik.StatusNaloga;
+                    cmbStatusNaloga.Text = korisnik.StatusNaloga;
 
                     if (korisnik is FizickoLice fl)
                     {
@@ -115,7 +115,7 @@ namespace PametniParking.Forme
 
                     korisnik.Email = txtEmail.Text;
                     korisnik.Adresa = txtAdresa.Text;
-                    korisnik.StatusNaloga = txtStatusNaloga.Text;
+                    korisnik.StatusNaloga = cmbStatusNaloga.Text;
 
                     if (korisnik is FizickoLice fl)
                     {
