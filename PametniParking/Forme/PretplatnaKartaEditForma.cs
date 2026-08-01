@@ -118,7 +118,7 @@ namespace PametniParking.Forme
                     else
                         session.Update(karta);
 
-                    // Obrisati postojece veze karta-zona pa ponovo dodati po trenutnom izboru
+                    // brisanje postojece veze karta-zona pa ponovo dodati po trenutnom izboru
                     var postojece = session.Query<PretplatnaKartaZona>().Where(z => z.Karta.Id == karta.Id).ToList();
                     foreach (var stara in postojece)
                         session.Delete(stara);
