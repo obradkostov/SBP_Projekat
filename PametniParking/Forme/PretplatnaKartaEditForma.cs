@@ -122,7 +122,7 @@ namespace PametniParking.Forme
                     var postojece = session.Query<PretplatnaKartaZona>().Where(z => z.Karta.Id == karta.Id).ToList();
                     foreach (var stara in postojece)
                         session.Delete(stara);
-
+                    session.Flush();
                     foreach (var stavka in clbZone.CheckedItems)
                     {
                         var zona = (ParkingZona)stavka;
