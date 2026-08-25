@@ -14,10 +14,10 @@ namespace PametniParking.Mapiranja
             Id(x => x.Id).Column("ID").GeneratedBy.Sequence("S19702.HIBERNATE_SEQUENCE");
             Map(x => x.DatumVremePocetka).Column("DATUM_VREME_POCETKA");
             Map(x => x.ObracunatiIznos).Column("OBRACUNATI_IZNOS");
-            References(x => x.Vozilo).Column("REGISTARSKA_OZNAKA");
-            References(x => x.ParkingMesto).Column("PARKING_MESTO_ID");
-            References(x => x.Zona).Column("ZONA_ID");
-            References(x => x.Karta).Column("KARTA_ID").Nullable();
+            References(x => x.Vozilo).Column("REGISTARSKA_OZNAKA").Not.LazyLoad();
+            References(x => x.ParkingMesto).Column("PARKING_MESTO_ID").Not.LazyLoad();
+            References(x => x.Zona).Column("ZONA_ID").Not.LazyLoad();
+            References(x => x.Karta).Column("KARTA_ID").Nullable().Not.LazyLoad();
         }
     }
 }

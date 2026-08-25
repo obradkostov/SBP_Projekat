@@ -13,7 +13,7 @@ namespace PametniParking.Mapiranja
             Table("S19702.TELEFON");
             Id(x => x.Id).Column("ID").GeneratedBy.Sequence("S19702.HIBERNATE_SEQUENCE");
             Map(x => x.BrojTelefona).Column("BROJ_TELEFONA");
-            References(x => x.Korisnik).Column("KORISNIK_ID");
+            References(x => x.Korisnik).Column("KORISNIK_ID").Not.LazyLoad();
         }
     }
 }

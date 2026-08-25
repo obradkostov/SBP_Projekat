@@ -19,7 +19,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.PopunjenostZone).Column("POPUNJENOST_ZONE");
             Map(x => x.TrajanjeParkirana).Column("TRAJANJE_PARKIRANJA");
             Map(x => x.IznosTarife).Column("IZNOS_TARIFE");
-            References(x => x.Zona).Column("ZONA_ID");
+            References(x => x.Zona).Column("ZONA_ID").Not.LazyLoad();
         }
     }
 }

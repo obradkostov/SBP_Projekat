@@ -18,7 +18,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.OcitanaVrednost).Column("OCITANA_VREDNOST");
             Map(x => x.NivoPouzdanosti).Column("NIVO_POUZDANOSTI");
             Map(x => x.Potvrda).Column("POTVRDA");
-            References(x => x.Senzor).Column("SENZOR_ID");
+            References(x => x.Senzor).Column("SENZOR_ID").Not.LazyLoad();
         }
     }
 }

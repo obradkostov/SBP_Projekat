@@ -17,7 +17,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.VremeOd).Column("VREME_OD");
             Map(x => x.VremeDo).Column("VREME_DO");
             Map(x => x.IznosTarife).Column("IZNOS_TARIFE");
-            References(x => x.Zona).Column("ZONA_ID");
+            References(x => x.Zona).Column("ZONA_ID").Not.LazyLoad();
         }
     }
 }

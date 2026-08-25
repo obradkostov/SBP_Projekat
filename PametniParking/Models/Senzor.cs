@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -17,6 +18,8 @@ namespace PametniParking.Models
         public virtual DateTime DatumInstalacije { get; set; }
         public virtual string Status { get; set; }
         public virtual string TipSenzora { get; set; }
+
+        [Newtonsoft.Json.JsonIgnore]
         public virtual IList<Dogadjaj> Dogadjaji { get; set; } = new List<Dogadjaj>();
     }
 }

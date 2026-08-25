@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../PametniParking.WebApi/PametniParking.WebApi.csproj" Id="a873bbe5-d72a-498c-b102-a9fb99e46c79" />
   <Project Path="PametniParking.csproj" Id="9077d5e3-85b7-4395-947e-1da0a1e9bf2d" />
 </Solution>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -16,6 +17,8 @@ namespace PametniParking.Models
         public virtual decimal DozDuzina { get; set; }
         public virtual char Natkrivenost { get; set; }
         public virtual string KameraSenzor { get; set; }
+
+        [Newtonsoft.Json.JsonIgnore]
         public virtual IList<Senzor> Senzori { get; set; } = new List<Senzor>();
     }
 }

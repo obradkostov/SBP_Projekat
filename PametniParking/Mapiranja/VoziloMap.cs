@@ -18,7 +18,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.TipVozila).Column("TIP_VOZILA");
             Map(x => x.Dimenzije).Column("DIMENZIJE");
             Map(x => x.Pogon).Column("POGON");
-            References(x => x.Korisnik).Column("KORISNIK_ID").Nullable();
+            References(x => x.Korisnik).Column("KORISNIK_ID").Nullable().Not.LazyLoad();
         }
     }
 }

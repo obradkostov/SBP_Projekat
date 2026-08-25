@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -16,6 +17,8 @@ namespace PametniParking.Models
         public virtual DateTime KrajVazenja { get; set; }
         public virtual decimal Cena { get; set; }
         public virtual int MaksBrVozila { get; set; }
+
+        [Newtonsoft.Json.JsonIgnore]
         public virtual IList<PretplatnaKartaZona> Zone { get; set; } = new List<PretplatnaKartaZona>();
     }
 }

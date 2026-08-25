@@ -19,7 +19,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.DozDuzina).Column("DOZ_DUZINA");
             Map(x => x.Natkrivenost).Column("NATKRIVENOST");
             Map(x => x.KameraSenzor).Column("KAMERA_SENZOR");
-            References(x => x.Zona).Column("ZONA_ID");
+            References(x => x.Zona).Column("ZONA_ID").Not.LazyLoad();
             HasMany(x => x.Senzori).KeyColumn("PARKING_MESTO_ID").Cascade.All().Inverse();
         }
     }

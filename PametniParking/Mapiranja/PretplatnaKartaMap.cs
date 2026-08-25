@@ -17,7 +17,7 @@ namespace PametniParking.Mapiranja
             Map(x => x.KrajVazenja).Column("KRAJ_VAZENJA");
             Map(x => x.Cena).Column("CENA");
             Map(x => x.MaksBrVozila).Column("MAKS_BR_VOZILA");
-            References(x => x.Korisnik).Column("KORISNIK_ID");
+            References(x => x.Korisnik).Column("KORISNIK_ID").Not.LazyLoad();
             HasMany(x => x.Zone).KeyColumn("KARTA_ID").Cascade.All().Inverse();
         }
     }
