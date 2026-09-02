@@ -1,0 +1,6 @@
+@PametniParking.WebApiCore_HostAddress = http://localhost:5169
+
+GET {{PametniParking.WebApiCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

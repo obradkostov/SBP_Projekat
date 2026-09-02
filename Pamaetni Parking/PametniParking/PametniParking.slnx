@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../PametniParking.DesktopCore/PametniParking.DesktopCore.csproj" Id="67797e9c-2577-4ac0-a85d-df188acae3eb" />
+  <Project Path="../PametniParking.WebApiCore/PametniParking.WebApiCore.csproj" />
+  <Project Path="PametniParkingLibrary.csproj" />
+</Solution>
