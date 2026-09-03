@@ -16,6 +16,6 @@ internal class SenzorMapiranja : ClassMap<Senzor>
         Map(x => x.TipSenzora, "TIP_SENZORA");
 
         References(x => x.ParkingMesto).Column("PARKING_MESTO_ID");
-        HasMany(x => x.Dogadjaji).KeyColumn("SENZOR_ID").Cascade.All();
+        HasMany(x => x.Dogadjaji).KeyColumn("SENZOR_ID").Cascade.All().Inverse();
     }
 }

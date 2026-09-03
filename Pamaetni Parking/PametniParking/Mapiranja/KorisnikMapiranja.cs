@@ -12,8 +12,8 @@ internal class KorisnikMapiranja : ClassMap<Korisnik>
         Map(x => x.Adresa, "ADRESA");
         Map(x => x.StatusNaloga, "STATUS_NALOGA");
 
-        HasMany(x => x.Telefoni).KeyColumn("KORISNIK_ID").Cascade.All();
-        HasMany(x => x.Vozila).KeyColumn("KORISNIK_ID").Cascade.All();
-        HasMany(x => x.PretplatneKarte).KeyColumn("KORISNIK_ID").Cascade.All();
+        HasMany(x => x.Telefoni).KeyColumn("KORISNIK_ID").Cascade.All().Inverse();
+        HasMany(x => x.Vozila).KeyColumn("KORISNIK_ID").Cascade.All().Inverse();
+        HasMany(x => x.PretplatneKarte).KeyColumn("KORISNIK_ID").Cascade.All().Inverse();
     }
 }

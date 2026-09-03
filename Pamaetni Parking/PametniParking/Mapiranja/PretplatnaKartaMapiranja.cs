@@ -15,6 +15,6 @@ internal class PretplatnaKartaMapiranja : ClassMap<PretplatnaKarta>
         Map(x => x.MaksBrVozila, "MAKS_BR_VOZILA");
 
         References(x => x.Korisnik).Column("KORISNIK_ID");
-        HasMany(x => x.Zone).KeyColumn("KARTA_ID").Cascade.All();
+        HasMany(x => x.Zone).KeyColumn("KARTA_ID").Cascade.All().Inverse();
     }
 }

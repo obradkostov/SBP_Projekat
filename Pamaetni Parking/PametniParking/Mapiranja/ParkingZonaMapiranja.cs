@@ -15,8 +15,8 @@ internal class ParkingZonaMapiranja : ClassMap<ParkingZona>
         Map(x => x.MaxVremeZadrzavanja, "MAX_VREME_ZADRZAVANJA");
         Map(x => x.PravilaNaplate, "PRAVILA_NAPLATE");
 
-        HasMany(x => x.FiksneTarife).KeyColumn("ZONA_ID").Cascade.All();
-        HasMany(x => x.DinamickeTarife).KeyColumn("ZONA_ID").Cascade.All();
-        HasMany(x => x.ParkingMesta).KeyColumn("ZONA_ID").Cascade.All();
+        HasMany(x => x.FiksneTarife).KeyColumn("ZONA_ID").Cascade.All().Inverse();
+        HasMany(x => x.DinamickeTarife).KeyColumn("ZONA_ID").Cascade.All().Inverse();
+        HasMany(x => x.ParkingMesta).KeyColumn("ZONA_ID").Cascade.All().Inverse();
     }
 }

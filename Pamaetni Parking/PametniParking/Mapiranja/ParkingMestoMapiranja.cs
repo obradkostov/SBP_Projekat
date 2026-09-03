@@ -17,6 +17,6 @@ internal class ParkingMestoMapiranja : ClassMap<ParkingMesto>
         Map(x => x.KameraSenzor, "KAMERA_SENZOR");
 
         References(x => x.Zona).Column("ZONA_ID");
-        HasMany(x => x.Senzori).KeyColumn("PARKING_MESTO_ID").Cascade.All();
+        HasMany(x => x.Senzori).KeyColumn("PARKING_MESTO_ID").Cascade.All().Inverse();
     }
 }

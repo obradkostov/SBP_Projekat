@@ -164,9 +164,9 @@ public static class DTOManager
             await s.DeleteAsync(z);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati zonu.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -355,9 +355,9 @@ public static class DTOManager
             await s.DeleteAsync(v);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati vozilo.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -528,7 +528,7 @@ public static class DTOManager
                 return "Nemoguće otvoriti sesiju.";
             }
 
-            Korisnik k = s.Load<Korisnik>(p.Id);
+            Korisnik k = await s.GetAsync<Korisnik>(p.Id);
             k.Email = p.Email;
             k.Adresa = p.Adresa;
             k.StatusNaloga = p.StatusNaloga;
@@ -582,9 +582,9 @@ public static class DTOManager
             await s.DeleteAsync(k);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati korisnika.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -712,8 +712,9 @@ public static class DTOManager
                 return "Nemoguće otvoriti sesiju.";
             }
 
-            Telefon t = s.Load<Telefon>(p.Id);
+            Telefon t = await s.GetAsync<Telefon>(p.Id);
             t.BrojTelefona = p.BrojTelefona;
+            t.Korisnik = await s.LoadAsync<Korisnik>(p.KorisnikId);
 
             await s.UpdateAsync(t);
             await s.FlushAsync();
@@ -749,9 +750,9 @@ public static class DTOManager
             await s.DeleteAsync(t);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati telefon.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -1086,14 +1087,29 @@ public static class DTOManager
                 return "Nemoguće otvoriti sesiju.";
             }
 
-            ParkingMesto m = await s.LoadAsync<ParkingMesto>(id);
+            MestoOsobaSaInvaliditetom? invaliditet = s.Query<MestoOsobaSaInvaliditetom>()
+                .FirstOrDefault(x => x.ParkingMesto!.Id == id);
+            if (invaliditet != null)
+            {
+                await s.DeleteAsync(invaliditet);
+            }
 
+            MestoSaPunjacem? punjac = s.Query<MestoSaPunjacem>()
+                .FirstOrDefault(x => x.ParkingMesto!.Id == id);
+            if (punjac != null)
+            {
+                await s.DeleteAsync(punjac);
+            }
+
+            await s.FlushAsync();
+
+            ParkingMesto m = await s.LoadAsync<ParkingMesto>(id);
             await s.DeleteAsync(m);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati parking mesto.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -1355,9 +1371,9 @@ public static class DTOManager
             await s.DeleteAsync(sz);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati senzor.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -1533,9 +1549,9 @@ public static class DTOManager
             await s.DeleteAsync(d);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati događaj.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -1717,9 +1733,9 @@ public static class DTOManager
             await s.DeleteAsync(pk);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati parkiranje.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -1887,7 +1903,11 @@ public static class DTOManager
                 await s.DeleteAsync(stara);
             }
 
+            await s.FlushAsync(); 
+
             if (p.ZoneId != null)
+
+                if (p.ZoneId != null)
             {
                 foreach (int zonaId in p.ZoneId)
                 {
@@ -1941,9 +1961,9 @@ public static class DTOManager
             await s.DeleteAsync(k);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati pretplatnu kartu.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -2117,9 +2137,9 @@ public static class DTOManager
             await s.DeleteAsync(t);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati fiksnu tarifu.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
@@ -2298,9 +2318,9 @@ public static class DTOManager
             await s.DeleteAsync(t);
             await s.FlushAsync();
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            return "Nemoguće obrisati dinamičku tarifu.";
+            return ErrorHandler.HandleError(e);
         }
         finally
         {
